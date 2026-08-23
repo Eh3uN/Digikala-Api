@@ -1,0 +1,44 @@
+{
+  "supports": [
+    {
+      "id": 1,
+      "url": "#",
+      "src": "./src/assets/footer/express-delivery.svg",
+      "alt": "xpress-delivery",
+      "text": "امکان تحویل اکسپرس",
+      "priority": "1"
+    },
+    {
+      "id": 2,
+      "url": "#",
+      "src": "./src/assets/footer/cash-on-delivery.svg",
+      "alt": "cash-on-delivery",
+      "text": "امکان پرداخت در محل",
+      "priority": "2"
+    },
+    {
+      "id": 3,
+      "url": "#",
+      "src": "./src/assets/footer/support.svg",
+      "alt": "support",
+      "text": "7 روز هفته، 24 ساعته",
+      "priority": "3"
+    },
+    {
+      "id": 4,
+      "url": "#",
+      "src": "./src/assets/footer/days-return.svg",
+      "alt": "days-return",
+      "text": "هفت روز ضمانت بازگشت کالا",
+      "priority": "4"
+    },
+    {
+      "id": 5,
+      "url": "#",
+      "src": "./src/assets/footer/original-products.svg",
+      "alt": "original-products",
+      "text": "ضمانت اصل بودن کالا",
+      "priority": "5"
+    }
+  ]
+}

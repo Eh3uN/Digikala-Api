@@ -1,0 +1,97 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: yekan;
+  src: url("/assets/font/Yekan.ttf") format("truetype");
+}
+@theme {
+  --font-yekan: "yekan";
+}
+
+html {
+  font-family: var(--font-yekan);
+  overflow-y: scroll;
+  scrollbar-color: #bfc3c9 #f2f2f2;
+  scrollbar-width: thin;
+}
+
+body {
+  min-width: 320px;
+  margin: 0;
+}
+
+::-webkit-scrollbar {
+  width: 14px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f2f2f2;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #bfc3c9;
+  border: 3px solid #f2f2f2;
+  border-radius: 999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #aeb3bb;
+}
+
+.header-banner[hidden],
+#mobile-menu-panel[hidden] {
+  display: none;
+}
+
+.header-banner picture {
+  display: block;
+}
+
+.header-navbar > div {
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  white-space: nowrap;
+}
+
+.header-navbar > div::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: 1px;
+  left: 0;
+  height: 2px;
+  border-radius: 3px 3px 0 0;
+  background: #ef394e;
+  transform: scaleX(0);
+  transition: transform 0.2s ease;
+}
+
+.header-navbar > div:hover::after {
+  transform: scaleX(1);
+}
+
+.header-navbar-category:hover > .header-mega-menu,
+.header-navbar-category:focus-within > .header-mega-menu {
+  display: flex;
+}
+
+.header-navbar img[src$=".svg"] {
+  filter: brightness(0) saturate(100%) invert(61%) sepia(7%) saturate(350%)
+    hue-rotate(180deg) brightness(91%) contrast(86%);
+}
+
+#mobile-menu summary::-webkit-details-marker {
+  display: none;
+}
+
+#mobile-menu summary::after {
+  content: "⌄";
+  float: left;
+  transition: transform 0.2s ease;
+}
+
+#mobile-menu details[open] > summary::after {
+  transform: rotate(180deg);
+}

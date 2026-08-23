@@ -1,0 +1,44 @@
+{
+  "social": [
+    {
+      "id": 1,
+      "title": "Instagram",
+      "src": "./src/assets/social/insta.svg",
+      "url": "https://www.instagram.com/digikalacom/",
+      "alt": "Instagram",
+      "priority": 1
+    },
+    {
+      "id": 2,
+      "title": "X",
+      "src": "./src/assets/social/x.svg",
+      "url": "https://twitter.com/digikalacom/",
+      "alt": "X",
+      "priority": 2
+    },
+    {
+      "id": 3,
+      "title": "LinkedIn",
+      "src": "./src/assets/social/linkdin.svg",
+      "url": "https://www.linkedin.com/company/digikala/mycompany/",
+      "alt": "LinkedIn",
+      "priority": 3
+    },
+    {
+      "id": 4,
+      "title": "Aparat",
+      "src": "./src/assets/social/aparat.svg",
+      "url": "https://www.aparat.com/digikala/",
+      "alt": "Aparat",
+      "priority": 4
+    },
+    {
+      "id": 5,
+      "title": "bale",
+      "src": "./src/assets/social/bale.png",
+      "url": "https://ble.ir/digikala",
+      "alt": "bale",
+      "priority": 5
+    }
+  ]
+}

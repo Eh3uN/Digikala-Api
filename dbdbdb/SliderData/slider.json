@@ -1,0 +1,29 @@
+[
+  {
+    "id": 10023456,
+    "title": "هدفون بی‌سیم XYZ",
+    "description": "هدفون بی‌سیم XYZ برند ABC با کیفیت صدای بالا و تخفیف ویژه. قیمت فروش 1,250,000 تومان، برند ABC، مناسب موسیقی و تماس‌های تلفنی.",
+    "images": {
+      "desktop": "src/assets/banner/headphones-des.jpg",
+      "mobile": "src/assets/banner/headphones-mobile.png"
+    },
+    "alt": "هدفون بی‌سیم XYZ برند ABC با کیفیت صدای بالا",
+    "url": "https://www.digikala.com/product/dkp-10023456/",
+    "priority": 1,
+    "active": true
+  },
+
+  {
+    "id": 10155667,
+    "title": "کفش ورزشی Running Max",
+    "description": "کفش ورزشی Running Max مناسب دویدن و استفاده روزمره",
+    "images": {
+      "desktop": "src/assets/banner/banner-1-des.png",
+      "mobile": "src/assets/banner/banner-1-mobile.png"
+    },
+    "alt": "کفش ورزشی Running Max با طراحی مدرن و کفی راحت",
+    "url": "https://www.digikala.com/product/dkp-10155667/",
+    "priority": 5,
+    "active": true
+  }
+]

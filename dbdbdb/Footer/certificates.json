@@ -1,0 +1,28 @@
+{
+  "certificates": [
+    {
+      "id": 1,
+      "title": "سامانه پایش مردمی رسانه‌های صوت و تصویر",
+      "image": "./src/assets/namad/sapra.png",
+      "url": "https://sapra.ir/"
+    },
+    {
+      "id": 2,
+      "title": "نشان ملی ثبت",
+      "image": "./src/assets/namad/rezi.png",
+      "url": "#"
+    },
+    {
+      "id": 3,
+      "title": "نماد کسب و کار های مجازی",
+      "image": "./src/assets/namad/kasbokar.png",
+      "url": "#"
+    },
+    {
+      "id": 4,
+      "title": "نماد اعتماد الکترونیک",
+      "image": "./src/assets/namad/enamad.png",
+      "url": "#"
+    }
+  ]
+}

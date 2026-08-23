@@ -1,0 +1,53 @@
+{
+  "applications": [
+    {
+      "id": 1,
+      "title": "Coffe Bazzar",
+      "url": "#",
+      "src": "./src/assets/application/coffe-bazzar.svg",
+      "alt": "bazzar",
+      "priority": "1"
+    },
+    {
+      "id": 2,
+      "title": "Myket",
+      "url": "#",
+      "src": "./src/assets/application/myket.svg",
+      "alt": "myket",
+      "priority": "2"
+    },
+    {
+      "id": 3,
+      "title": "Sib App",
+      "url": "#",
+      "src": "./src/assets/application/sib-app.svg",
+      "alt": "sib",
+      "priority": "3"
+    }
+  ],
+
+  "applicationsMobile": [
+    {
+      "src": "./src/assets/application/coffe-bazzar-dark-.svg",
+      "alt": "coffe-bazzar",
+      "title": "coffe-bazzar",
+      "priority": "1",
+      "url": "#"
+    },
+    {
+      "src": "./src/assets/application/myket-dark.svg",
+      "alt": "myket-dark",
+      "title": "myket-dark",
+      "priority": "2",
+      "url": "#"
+    },
+    {
+      "src": "./src/assets/application/apk-badge-dark.svg",
+      "alt": "apk-badge-dark",
+      "title": "apk-badge-dark",
+      "priority": "3",
+      "url": "#"
+    }
+  ]
+
+}

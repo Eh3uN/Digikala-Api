@@ -1,0 +1,226 @@
+{
+  "menu": [
+    {
+      "id": 1,
+      "title": "دسته‌بندی کالاها",
+      "url": "#",
+      "type": "subMenu",
+      "submenu": [
+        {
+          "id": 11,
+          "title": "موبایل",
+          "url": "#",
+          "type": "subMenu",
+          "submenu": [
+            {
+              "id": 111,
+              "title": "انتخاب موبایل",
+              "url": "#",
+              "type": "subMenu",
+              "submenu": [
+                { "id": 1111, "title": "گوشی‌های اپل", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 1, "variant": "megaLink" },
+                { "id": 1112, "title": "آیفون ۱۶", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 2, "variant": "megaLink" },
+                { "id": 1113, "title": "آیفون ۱۷", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 3, "variant": "megaLink" },
+                { "id": 1114, "title": "گوشی‌های مختلف موبایل", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 4, "variant": "megaLink" },
+                { "id": 1115, "title": "برندهای مختلف گوشی موبایل", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 5, "variant": "megaLink" },
+                { "id": 1116, "title": "گوشی شیائومی", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 6, "variant": "megaLink" },
+                { "id": 1117, "title": "گوشی نوکیا", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 7, "variant": "megaLink" },
+                { "id": 1118, "title": "گوشی آنر", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 8, "variant": "megaLink" },
+                { "id": 1119, "title": "گوشی وکال", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 9, "variant": "megaLink" }
+              ],
+              "mega": false,
+              "priority": 1,
+              "variant": "megaColumn"
+            },
+            {
+              "id": 112,
+              "title": "گوشی براساس قیمت",
+              "url": "#",
+              "type": "subMenu",
+              "submenu": [
+                { "id": 1121, "title": "گوشی ارزان", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 1, "variant": "megaLink" },
+                { "id": 1122, "title": "گوشی موبایل قسطی", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 2, "variant": "megaLink" },
+                { "id": 1123, "title": "گوشی تا ۲ میلیون تومان", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 3, "variant": "megaLink" },
+                { "id": 1124, "title": "گوشی تا ۵ میلیون تومان", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 4, "variant": "megaLink" },
+                { "id": 1125, "title": "گوشی تا ۷ میلیون تومان", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 5, "variant": "megaLink" },
+                { "id": 1126, "title": "گوشی تا ۱۰ میلیون تومان", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 6, "variant": "megaLink" },
+                { "id": 1127, "title": "گوشی تا ۱۲ میلیون تومان", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 7, "variant": "megaLink" },
+                { "id": 1128, "title": "گوشی تا ۱۵ میلیون تومان", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 8, "variant": "megaLink" },
+                { "id": 1129, "title": "گوشی تا ۲۰ میلیون تومان", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 9, "variant": "megaLink" },
+                { "id": 11210, "title": "گوشی تا ۳۰ میلیون تومان", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 10, "variant": "megaLink" },
+                { "id": 11211, "title": "گوشی تا ۴۰ میلیون تومان", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 11, "variant": "megaLink" }
+              ],
+              "mega": false,
+              "priority": 2,
+              "variant": "megaColumn"
+            },
+            {
+              "id": 113,
+              "title": "لوازم جانبی موبایل",
+              "url": "#",
+              "type": "subMenu",
+              "submenu": [
+                { "id": 1131, "title": "شارژر گوشی", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 1, "variant": "megaLink" },
+                { "id": 1132, "title": "شارژر وایرلس", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 2, "variant": "megaLink" },
+                { "id": 1133, "title": "شارژر تایپ سی", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 3, "variant": "megaLink" },
+                { "id": 1134, "title": "کابل شارژ تایپ سی", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 4, "variant": "megaLink" },
+                { "id": 1135, "title": "قاب گوشی", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 5, "variant": "megaLink" },
+                { "id": 1136, "title": "گلس گوشی", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 6, "variant": "megaLink" },
+                { "id": 1137, "title": "شارژر فندکی", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 7, "variant": "megaLink" },
+                { "id": 1138, "title": "هولدر گوشی موبایل", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 8, "variant": "megaLink" },
+                { "id": 1139, "title": "کابل شارژ و مبدل", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 9, "variant": "megaLink" },
+                { "id": 11310, "title": "پاوربانک", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 10, "variant": "megaLink" },
+                { "id": 11311, "title": "پاور استیشن", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 11, "variant": "megaLink" }
+              ],
+              "mega": false,
+              "priority": 3,
+              "variant": "megaColumn"
+            },
+            {
+              "id": 114,
+              "title": "داغ‌ترین‌ها",
+              "url": "#",
+              "type": "subMenu",
+              "submenu": [
+                { "id": 1141, "title": "گوشی S26", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 1, "variant": "megaLink" },
+                { "id": 1142, "title": "آیفون ۱۷", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 2, "variant": "megaLink" },
+                { "id": 1143, "title": "گوشی S25 سامسونگ", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 3, "variant": "megaLink" },
+                { "id": 1144, "title": "شیائومی نوت ۱۵", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 4, "variant": "megaLink" },
+                { "id": 1145, "title": "شیائومی نوت ۱۴", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 5, "variant": "megaLink" },
+                { "id": 1146, "title": "ردمی نوت ۱۴ پرو", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 6, "variant": "megaLink" },
+                { "id": 1147, "title": "ردمی نوت ۱۴ پرو پلاس", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 7, "variant": "megaLink" },
+                { "id": 1148, "title": "گوشی سامسونگ سری s", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 8, "variant": "megaLink" },
+                { "id": 1149, "title": "گوشی سامسونگ سری a", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 9, "variant": "megaLink" },
+                { "id": 11410, "title": "گوشی سامسونگ سری m", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 10, "variant": "megaLink" },
+                { "id": 11411, "title": "گلکسی A57", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 11, "variant": "megaLink" },
+                { "id": 11412, "title": "شیائومی 15t", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 12, "variant": "megaLink" },
+                { "id": 11413, "title": "پوکو x7 پرو", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 13, "variant": "megaLink" }
+              ],
+              "mega": false,
+              "priority": 4,
+              "variant": "megaColumn"
+            },
+            {
+              "id": 115,
+              "title": "گوشی براساس عملکرد",
+              "url": "#",
+              "type": "subMenu",
+              "submenu": [
+                { "id": 1151, "title": "گوشی گیمینگ", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 1, "variant": "megaLink" },
+                { "id": 1152, "title": "گوشی 5G", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 2, "variant": "megaLink" },
+                { "id": 1153, "title": "گوشی ضد آب", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 3, "variant": "megaLink" },
+                { "id": 1154, "title": "گوشی مناسب عکاسی", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 4, "variant": "megaLink" }
+              ],
+              "mega": false,
+              "priority": 5,
+              "variant": "megaColumn"
+            },
+            {
+              "id": 116,
+              "title": "سیم کارت و مودم",
+              "url": "#",
+              "type": "subMenu",
+              "submenu": [
+                { "id": 1161, "title": "سیم کارت دائمی", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 1, "variant": "megaLink" },
+                { "id": 1162, "title": "سیم کارت اعتباری", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 2, "variant": "megaLink" },
+                { "id": 1163, "title": "مودم 4G و 5G", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 3, "variant": "megaLink" },
+                { "id": 1164, "title": "روتر بی‌سیم", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 4, "variant": "megaLink" }
+              ],
+              "mega": false,
+              "priority": 6,
+              "variant": "megaColumn"
+            }
+          ],
+          "mega": true,
+          "priority": 1,
+          "icon": "/assets/images/header/Navbar/megaMenu/mega-mobile.svg",
+          "variant": "megaCategory",
+          "allLabel": "همه محصولات موبایل"
+        },
+        { "id": 12, "title": "لپ‌تاپ", "url": "#", "type": "normalMenu", "submenu": [], "mega": true, "priority": 2, "icon": "/assets/images/header/Navbar/megaMenu/mega-laptop.svg", "variant": "megaCategory" },
+        { "id": 13, "title": "کالای دیجیتال", "url": "#", "type": "normalMenu", "submenu": [], "mega": true, "priority": 3, "icon": "/assets/images/header/Navbar/megaMenu/mega-electric.svg", "variant": "megaCategory" },
+        { "id": 14, "title": "خانه و آشپزخانه", "url": "#", "type": "normalMenu", "submenu": [], "mega": true, "priority": 4, "icon": "/assets/images/header/Navbar/megaMenu/mega-sofa.svg", "variant": "megaCategory" },
+        { "id": 15, "title": "لوازم خانگی برقی", "url": "#", "type": "normalMenu", "submenu": [], "mega": true, "priority": 5, "icon": "/assets/images/header/Navbar/megaMenu/mega-electric.svg", "variant": "megaCategory" },
+        { "id": 16, "title": "آرایشی بهداشتی", "url": "#", "type": "normalMenu", "submenu": [], "mega": true, "priority": 6, "icon": "/assets/images/header/Navbar/megaMenu/mega-makeup.svg", "variant": "megaCategory" },
+        { "id": 17, "title": "مد و پوشاک", "url": "#", "type": "normalMenu", "submenu": [], "mega": true, "priority": 7, "icon": "/assets/images/header/Navbar/megaMenu/mega-kids.svg", "variant": "megaCategory" },
+        { "id": 18, "title": "طلا و نقره", "url": "#", "type": "normalMenu", "submenu": [], "mega": true, "priority": 8, "icon": "/assets/images/header/Navbar/megaMenu/mega-jewlery.svg", "variant": "megaCategory" },
+        { "id": 19, "title": "خودرو و موتورسیکلت", "url": "#", "type": "normalMenu", "submenu": [], "mega": true, "priority": 9, "icon": "/assets/images/header/Navbar/megaMenu/mega-cars.svg", "variant": "megaCategory" },
+        { "id": 20, "title": "سلامت و پزشکی", "url": "#", "type": "normalMenu", "submenu": [], "mega": true, "priority": 10, "icon": "/assets/images/header/Navbar/megaMenu/mega-medical.svg", "variant": "megaCategory" },
+        { "id": 21, "title": "ابزارآلات و تجهیزات", "url": "#", "type": "normalMenu", "submenu": [], "mega": true, "priority": 11, "icon": "/assets/images/header/Navbar/megaMenu/mega-tools.svg", "variant": "megaCategory" },
+        { "id": 22, "title": "ورزش و سفر", "url": "#", "type": "normalMenu", "submenu": [], "mega": true, "priority": 12, "icon": "/assets/images/header/Navbar/megaMenu/mega-sport.svg", "variant": "megaCategory" },
+        { "id": 23, "title": "کتاب و لوازم تحریر", "url": "#", "type": "normalMenu", "submenu": [], "mega": true, "priority": 13, "icon": "/assets/images/header/Navbar/megaMenu/mega-art.svg", "variant": "megaCategory" }
+      ],
+      "mega": true,
+      "priority": 1,
+      "icon": "/assets/images/header/Navbar/Burger.svg",
+      "variant": "category",
+      "divider": "after"
+    },
+    {
+      "id": 2,
+      "title": "شگفت‌انگیزها",
+      "url": "https://www.digikala.com/incredible-offers/",
+      "type": "normalMenu",
+      "submenu": [],
+      "mega": false,
+      "priority": 2,
+      "icon": "/assets/images/header/Navbar/percent.svg",
+      "variant": "navigation"
+    },
+    {
+      "id": 3,
+      "title": "سوپرمارکت",
+      "url": "https://api.digikala.com/super-app/v1/sso/jet/?redirect_url=%2F%3Futm_source%3Ddigikala-superweb%26sa_user%3Dtrue",
+      "type": "normalMenu",
+      "submenu": [],
+      "mega": false,
+      "priority": 3,
+      "icon": "/assets/images/header/Navbar/shoppingBasket.svg",
+      "variant": "navigation"
+    },
+    {
+      "id": 4,
+      "title": "طلا و نقره دیجیتال",
+      "url": "https://www.digikala.com/wealth/landing/digital-gold/",
+      "type": "normalMenu",
+      "submenu": [],
+      "mega": false,
+      "priority": 4,
+      "icon": "/assets/images/header/Navbar/digital-gold.svg",
+      "variant": "navigation"
+    },
+    {
+      "id": 5,
+      "title": "پرفروش‌ترین‌ها",
+      "url": "https://www.digikala.com/best-selling/",
+      "type": "normalMenu",
+      "submenu": [],
+      "mega": false,
+      "priority": 5,
+      "icon": "/assets/images/header/Navbar/mostSellings.svg",
+      "variant": "navigation"
+    },
+    {
+      "id": 6,
+      "title": "دیجی‌استایل",
+      "url": "https://digistyle.com/",
+      "type": "normalMenu",
+      "submenu": [],
+      "mega": false,
+      "priority": 6,
+      "icon": "/assets/images/header/Navbar/clothes.svg",
+      "variant": "navigation"
+    },
+    {
+      "id": 7,
+      "title": "در دیجی‌کالا بفروشید!",
+      "url": "https://www.digikala.com/landings/seller-introduction/",
+      "type": "normalMenu",
+      "submenu": [],
+      "mega": false,
+      "priority": 7,
+      "variant": "service",
+      "divider": "before"
+    }
+  ]
+}

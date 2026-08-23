@@ -1,0 +1,130 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "priority": 1,
+      "title": "موبایل",
+      "url": "#",
+      "src": "https://dkstatics-public.digikala.com/digikala-mega-menu/09a98a13c782e12a245930b4515d243b17734a33_1740299441.jpg"
+    },
+    {
+      "id": 1777,
+      "priority": 2,
+      "title": "لپ تاپ",
+      "url": "#",
+      "src": "https://dkstatics-public.digikala.com/digikala-mega-menu/7cf1fed6dac6bdfd1b888db6bf8f443ea680244b_1748692252.jpg"
+    },
+    {
+      "id": 2,
+      "priority": 3,
+      "title": "کالای دیجیتال",
+      "url": "#",
+      "src": "https://dkstatics-public.digikala.com/digikala-mega-menu/151ec29bae111afd3b6a0e71cec5c4c26f1c3014_1740299456.jpg"
+    },
+    {
+      "id": 3,
+      "priority": 4,
+      "title": "خانه و آشپزخانه",
+      "url": "#",
+      "src": "https://dkstatics-public.digikala.com/digikala-mega-menu/8a042388b93c5116604f35092a1fb35f8f0756be_1740299467.jpg"
+    },
+    {
+      "id": 835,
+      "priority": 5,
+      "title": "لوازم خانگی برقی",
+      "url": "#",
+      "src": "https://dkstatics-public.digikala.com/digikala-mega-menu/d825f64f509cd5067a9022528c465e8ca705f60d_1740299511.jpg"
+    },
+    {
+      "id": 8,
+      "priority": 6,
+      "title": "آرایشی بهداشتی",
+      "url": "#",
+      "src": "https://dkstatics-public.digikala.com/digikala-mega-menu/b196bbdea97f57bfac02dc1666d7401b16ee4bcb_1740299482.jpg"
+    },
+    {
+      "id": 4,
+      "priority": 7,
+      "title": "مد و پوشاک",
+      "url": "#",
+      "src": "https://dkstatics-public.digikala.com/digikala-mega-menu/b3d4eaefebe67ab8d849296ea2e7e113cde8094c_1740299538.jpg"
+    },
+    {
+      "id": 1307,
+      "priority": 8,
+      "title": "طلا و نقره",
+      "url": "#",
+      "src": "https://dkstatics-public.digikala.com/digikala-mega-menu/78135af4274ad7b7fcdaec7e5912689e5f5db96a_1740299548.jpg"
+    },
+    {
+      "id": 11,
+      "priority": 9,
+      "title": "خودرو و موتورسیکلت",
+      "url": "#",
+      "src": "https://dkstatics-public.digikala.com/digikala-mega-menu/03552aa1293fec9f43477814ca62afdacdac18e3_1740299496.jpg"
+    },
+    {
+      "id": 1414,
+      "priority": 10,
+      "title": "سلامت و پزشکی",
+      "url": "#",
+      "src": "https://dkstatics-public.digikala.com/digikala-mega-menu/deb3f514c62761797eb6a49e1559268b8bce3219_1740299561.jpg"
+    },
+    {
+      "id": 10,
+      "priority": 11,
+      "title": "ابزارآلات و تجهیزات",
+      "url": "#",
+      "src": "https://dkstatics-public.digikala.com/digikala-mega-menu/fb6303218362cd2c48b40fef5da89ad33a5c04d7_1740299524.jpg"
+    },
+    {
+      "id": 6,
+      "priority": null,
+      "title": "کتاب و هنر",
+      "url": "#",
+      "src": "https://dkstatics-public.digikala.com/digikala-mega-menu/0cdf9c404e509371c3177a334be948a7e500419c_1740299574.jpg"
+    },
+    {
+      "id": 9,
+      "priority": 12,
+      "title": "ورزش و سفر",
+      "url": "#",
+      "src": "https://dkstatics-public.digikala.com/digikala-mega-menu/4d4582205d0d5045c2bd94c5e910bbb49ae4fd4e_1740299590.jpg"
+    },
+    {
+      "id": 13,
+      "priority": 13,
+      "title": "کارت هدیه و گیفت کارت",
+      "url": "#",
+      "src": "https://dkstatics-public.digikala.com/digikala-mega-menu/f35b3eba7de8bf2432fff4f53abfa8cbaa6e71d6_1740299603.jpg"
+    },
+    {
+      "id": 5,
+      "priority": 14,
+      "title": "سوپر مارکت آنلاین",
+      "url": "#",
+      "src": "https://dkstatics-public.digikala.com/digikala-mega-menu/7adb0cc6edc18a6d04b9ba3bdd424b1bcce47848_1740299618.jpg"
+    },
+    {
+      "id": 7,
+      "priority": 15,
+      "title": "اسباب بازی، کودک و نوزاد",
+      "url": "#",
+      "src": "https://dkstatics-public.digikala.com/digikala-mega-menu/6f5284dccdb280616bbfe58533ecc483de4639af_1740299648.jpg"
+    },
+    {
+      "id": 12,
+      "priority": 16,
+      "title": "محصولات بومی و محلی",
+      "url": "#",
+      "src": "https://dkstatics-public.digikala.com/digikala-mega-menu/9a4dfac524f8a865f9f69e38d5434fa69fe63e3b_1740299663.jpg"
+    },
+    {
+      "id": 1974,
+      "priority": 17,
+      "title": "پت شاپ",
+      "url": "#",
+      "src": "https://dkstatics-public.digikala.com/digikala-mega-menu/6f236efd9caae4d1c3177f37c483aa44c3092b6a_1753614680.jpg"
+    }
+  ]
+}

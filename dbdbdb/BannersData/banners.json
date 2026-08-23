@@ -1,0 +1,108 @@
+{
+  "hero_banners": [
+    {
+      "id": 209199,
+      "image": "https://dkstatics-public.digikala.com/digikala-adservice-banners/09c5f6017d4f7e18ecff4be5c7c420b67a757665_1780212364.jpg",
+      "webp_image": "https://dkstatics-public.digikala.com/digikala-adservice-banners/09c5f6017d4f7e18ecff4be5c7c420b67a757665_1780212364.jpg",
+      "title": "برای عاشقان لگو - وب",
+      "is_ad": false,
+      "url": "/landing/lego-2026collection/?&promo_name=%D8%A8%D8%B1%D8%A7%DB%8C+%D8%B9%D8%A7%D8%B4%D9%82%D8%A7%D9%86+%D9%84%DA%AF%D9%88+-+%D9%88%D8%A8&promo_position=home_top&promo_creative=209199&bCode=209199",
+      "is_smart_ads": false,
+      "priority": 1
+    },
+    {
+      "id": 209469,
+      "image": "https://dkstatics-public.digikala.com/digikala-adservice-banners/c2c5fcf87deea742496800dc8947d8fab94b399e_1781096080.jpg",
+      "webp_image": "https://dkstatics-public.digikala.com/digikala-adservice-banners/c2c5fcf87deea742496800dc8947d8fab94b399e_1781096080.jpg",
+      "title": "پارتنرشیپ-پاکشو",
+      "is_ad": false,
+      "url": "/product-list/plp_415145605/?&promo_name=%D9%BE%D8%A7%D8%B1%D8%AA%D9%86%D8%B1%D8%B4%DB%8C%D9%BE-%D9%BE%D8%A7%DA%A9%D8%B4%D9%88&promo_position=home_top&promo_creative=209469&bCode=209469",
+      "is_smart_ads": false,
+      "priority": 2
+    },
+    {
+      "id": 209539,
+      "image": "https://dkstatics-public.digikala.com/digikala-adservice-banners/aaac1e72c63cbe5c026e3e62d8179537f4da7087_1781358767.jpg",
+      "webp_image": "https://dkstatics-public.digikala.com/digikala-adservice-banners/aaac1e72c63cbe5c026e3e62d8179537f4da7087_1781358767.jpg",
+      "title": "لایف استایل تابستون",
+      "is_ad": false,
+      "url": "/landing/summer-lifestyle/?&promo_name=%D9%84%D8%A7%DB%8C%D9%81+%D8%A7%D8%B3%D8%AA%D8%A7%DB%8C%D9%84+%D8%AA%D8%A7%D8%A8%D8%B3%D8%AA%D9%88%D9%86&promo_position=home_top&promo_creative=209539&bCode=209539",
+      "is_smart_ads": false,
+      "priority": 3
+    },
+    {
+      "id": 209267,
+      "image": "https://dkstatics-public.digikala.com/digikala-adservice-banners/bb93ec63d562e8fb5f29edec2dffca4861ceb95c_1780385463.jpg",
+      "webp_image": "https://dkstatics-public.digikala.com/digikala-adservice-banners/bb93ec63d562e8fb5f29edec2dffca4861ceb95c_1780385463.jpg",
+      "title": "شیائومی ",
+      "is_ad": false,
+      "url": "/landing/xiaomi-he/?&promo_name=%D8%B4%DB%8C%D8%A7%D8%A6%D9%88%D9%85%DB%8C+&promo_position=home_top&promo_creative=209267&bCode=209267",
+      "is_smart_ads": false,
+      "priority": 4
+    }
+  ],
+  "campaign_banners": [
+    {
+      "id": 209465,
+      "image": "https://dkstatics-public.digikala.com/digikala-adservice-banners/c56fbd1c04dc08daee85554c10bcb1fc63d90087_1781084653.jpg",
+      "webp_image": "https://dkstatics-public.digikala.com/digikala-adservice-banners/c56fbd1c04dc08daee85554c10bcb1fc63d90087_1781084653.jpg",
+      "title": "پارتنرشیپ-اکسیراز",
+      "is_ad": false,
+      "url": "/brand/exiraz/?&promo_name=%D9%BE%D8%A7%D8%B1%D8%AA%D9%86%D8%B1%D8%B4%DB%8C%D9%BE-%D8%A7%DA%A9%D8%B3%DB%8C%D8%B1%D8%A7%D8%B2&promo_position=home_top_second&promo_creative=208542&bCode=209465",
+      "is_smart_ads": false,
+      "priority": 1
+    },
+    {
+      "id": 209467,
+      "image": "https://dkstatics-public.digikala.com/digikala-adservice-banners/3bfe001a9e08a18cbd46a8b47a28abb63ddfce7b_1781085010.jpg",
+      "webp_image": "https://dkstatics-public.digikala.com/digikala-adservice-banners/3bfe001a9e08a18cbd46a8b47a28abb63ddfce7b_1781085010.jpg",
+      "title": "پارتنرشیپ-پوموکلاژن",
+      "is_ad": false,
+      "url": "/brand/pomo-collagen/?&promo_name=%D9%BE%D8%A7%D8%B1%D8%AA%D9%86%D8%B1%D8%B4%DB%8C%D9%BE-%D9%BE%D9%88%D9%85%D9%88+%DA%A9%D9%84%D8%A7%DA%98%D9%86&promo_position=home_top_second&promo_creative=209402&bCode=209467",
+      "is_smart_ads": false,
+      "priority": 2
+    },
+    {
+      "id": 209473,
+      "image": "https://dkstatics-public.digikala.com/digikala-adservice-banners/5af6360a1dc0b6bab64dc94113730a93f57a111b_1781085709.jpg",
+      "webp_image": "https://dkstatics-public.digikala.com/digikala-adservice-banners/5af6360a1dc0b6bab64dc94113730a93f57a111b_1781085709.jpg",
+      "title": "پارتنرشیپ-میگل",
+      "is_ad": false,
+      "url": "/brand/migel/?&promo_name=%D9%BE%D8%A7%D8%B1%D8%AA%D9%86%D8%B1%D8%B4%DB%8C%D9%BE-%D9%85%DB%8C%DA%AF%D9%84&promo_position=home_top_second&promo_creative=209473&bCode=209473",
+      "is_smart_ads": false,
+      "priority": 3
+    },
+    {
+      "id": 209524,
+      "image": "https://dkstatics-public.digikala.com/digikala-adservice-banners/4cd653950aaf12603e18d5e52de7581ea9daa896_1781343611.jpg",
+      "webp_image": "https://dkstatics-public.digikala.com/digikala-adservice-banners/4cd653950aaf12603e18d5e52de7581ea9daa896_1781343611.jpg",
+      "title": "از آیفون 17 پرومکس تا گوشی دکمه‌ای",
+      "is_ad": false,
+      "url": "/search/category-mobile-phone/?sort=4&utm_source=onsite&utm_medium=banner&utm_campaign=MOGen&utm_content=050323&utm_term=typeA2&promo_name=%D8%A7%D8%B2+%D8%A2%DB%8C%D9%81%D9%88%D9%86+17+%D9%BE%D8%B1%D9%88%D9%85%DA%A9%D8%B3+%D8%AA%D8%A7+%DA%AF%D9%88%D8%B4%DB%8C+%D8%AF%DA%A9%D9%85%D9%87%E2%80%8C%D8%A7%DB%8C&promo_position=home_top_second&promo_creative=209524&bCode=209524",
+      "is_smart_ads": false,
+      "priority": 4
+    }
+  ],
+  "promo_banners": [
+    {
+      "id": 195726,
+      "image": "https://dkstatics-public.digikala.com/digikala-adservice-banners/7158162a559d1042b0669b03a07981f638805506_1768031636.jpg",
+      "webp_image": "https://dkstatics-public.digikala.com/digikala-adservice-banners/7158162a559d1042b0669b03a07981f638805506_1768031636.jpg",
+      "title": "پارتنرشیپ-پاکشو",
+      "is_ad": false,
+      "url": "/landing/laundrydetergents/?&promo_name=%D9%BE%D8%A7%D8%B1%D8%AA%D9%86%D8%B1%D8%B4%DB%8C%D9%BE-%D9%BE%D8%A7%DA%A9%D8%B4%D9%88&promo_position=home_middle&promo_creative=195726&bCode=195726",
+      "is_smart_ads": false,
+      "priority": 2
+    },
+    {
+      "id": 209475,
+      "image": "https://dkstatics-public.digikala.com/digikala-adservice-banners/3268af403aa2aaaac6bb8010e8d7f72284ed853e_1781440618.jpg",
+      "webp_image": "https://dkstatics-public.digikala.com/digikala-adservice-banners/3268af403aa2aaaac6bb8010e8d7f72284ed853e_1781440618.jpg",
+      "title": "پارتنرشیپ-ژوبیتر",
+      "is_ad": false,
+      "url": "/product-list/plp_409505402/?&promo_name=%D9%BE%D8%A7%D8%B1%D8%AA%D9%86%D8%B1%D8%B4%DB%8C%D9%BE-%DA%98%D9%88%D8%A8%DB%8C%D8%AA%D8%B1&promo_position=home_middle&promo_creative=209387&bCode=209475",
+      "is_smart_ads": false,
+      "priority": 1
+    }
+  ]
+}

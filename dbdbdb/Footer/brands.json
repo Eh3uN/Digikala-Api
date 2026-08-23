@@ -1,0 +1,39 @@
+{
+  "brands": [
+
+      { "id": 1, "title": "magsvg", "alt": "magsvg", "priority": 1, "url": "#", "src": "./src/assets/brands/magsvg.svg" },
+      { "id": 2, "title": "digipay", "alt": "digipay", "priority": 2, "url": "#", "src": "./src/assets/brands/digipay.svg" },
+      { "id": 3, "title": "digistyle", "alt": "digistyle", "priority": 3, "url": "#", "src": "./src/assets/brands/digistyle.svg" },
+      { "id": 4, "title": "digiplus", "alt": "digiplus", "priority": 4, "url": "#", "src": "./src/assets/brands/digiplus.svg" },
+      { "id": 5, "title": "digiclub", "alt": "digiclub", "priority": 5, "url": "#", "src": "./src/assets/brands/digiclub.svg" },
+      { "id": 6, "title": "jet", "alt": "jet", "priority": 6, "url": "#", "src": "./src/assets/brands/jet.svg" },
+      { "id": 7, "title": "digiMehr", "alt": "digiMehr", "priority": 7, "url": "#", "src": "./src/assets/brands/digiMehr.svg" },
+      { "id": 8, "title": "diginext", "alt": "diginext", "priority": 8, "url": "#", "src": "./src/assets/brands/diginext.svg" },
+      { "id": 9, "title": "digiexpress", "alt": "digiexpress", "priority": 9, "url": "#", "src": "./src/assets/brands/digiexpress.svg" },
+      { "id": 10, "title": "ganjeh", "alt": "ganjeh", "priority": 10, "url": "#", "src": "./src/assets/brands/ganjeh.svg" },
+      { "id": 11, "title": "digify", "alt": "digify", "priority": 11, "url": "#", "src": "./src/assets/brands/digify.svg" },
+      { "id": 12, "title": "smartech", "alt": "smartech", "priority": 12, "url": "#", "src": "./src/assets/brands/smartech.svg" },
+      { "id": 13, "title": "digikala-business", "alt": "digikala-business", "priority": 13, "url": "#", "src": "./src/assets/brands/digikala-business.svg" },
+      { "id": 14, "title": "digiservice", "alt": "digiservice", "priority": 14, "url": "#", "src": "./src/assets/brands/digiservice.svg" },
+      { "id": 15, "title": "miare", "alt": "miare", "priority": 15, "url": "#", "src": "./src/assets/brands/miare.svg" },
+      { "id": 16, "title": "digividomart", "alt": "digividomart", "priority": 16, "url": "#", "src": "./src/assets/brands/digividomart.svg" }
+    ],
+  "mobileBrands": [
+
+      { "id": 1, "priority": 1, "url": "#", "src": "./src/assets/brands/digimag.svg", "alt": "digimag", "title": "digimag" },
+      { "id": 2, "priority": 2, "url": "#", "src": "./src/assets/brands/digipay.svg", "alt": "digipay", "title": "digipay" },
+      { "id": 3, "priority": 3, "url": "#", "src": "./src/assets/brands/digistyle.svg", "alt": "digistyle", "title": "digistyle" },
+      { "id": 4, "priority": 4, "url": "#", "src": "./src/assets/brands/digiplus.svg", "alt": "digiplus", "title": "digiplus" },
+      { "id": 5, "priority": 5, "url": "#", "src": "./src/assets/brands/digiclub.svg", "alt": "digiclub", "title": "digiclub" },
+      { "id": 6, "priority": 6, "url": "#", "src": "./src/assets/brands/jet.svg", "alt": "jet", "title": "jet" },
+      { "id": 7, "priority": 7, "url": "#", "src": "./src/assets/brands/digify.svg", "alt": "digify", "title": "digify" },
+      { "id": 8, "priority": 8, "url": "#", "src": "./src/assets/brands/digiMehr.svg", "alt": "digiMehr", "title": "digiMehr" },
+      { "id": 9, "priority": 9, "url": "#", "src": "./src/assets/brands/diginext.svg", "alt": "diginext", "title": "diginext" },
+      { "id": 10, "priority": 10, "url": "#", "src": "./src/assets/brands/ganjeh.svg", "alt": "ganjeh", "title": "ganjeh" },
+      { "id": 11, "priority": 11, "url": "#", "src": "./src/assets/brands/digiexpress.svg", "alt": "digiexpress", "title": "digiexpress" },
+      { "id": 12, "priority": 12, "url": "#", "src": "./src/assets/brands/smartech.svg", "alt": "smartech", "title": "smartech" },
+      { "id": 13, "priority": 13, "url": "#", "src": "./src/assets/brands/digikala-service.svg", "alt": "digikala-service", "title": "digikala-service" },
+      { "id": 14, "priority": 14, "url": "#", "src": "./src/assets/brands/digikala-business.svg", "alt": "digikala-business", "title": "digikala-business" }
+
+  ]
+}

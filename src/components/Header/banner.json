@@ -1,0 +1,18 @@
+{
+  "banner": [
+    {
+      "id": 1,
+      "title": "بنر",
+      "alt": "بنر",
+      "url": "/",
+      "images":
+        {
+          "desktop": "/assets/images/header/image-1.webp",
+          "mobile": "/assets/images/header/image-1.webp"
+        }
+      ,
+      "priority": 1,
+      "active": true
+    }
+  ]
+}

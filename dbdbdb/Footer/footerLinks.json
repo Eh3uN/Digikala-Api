@@ -1,0 +1,18 @@
+{
+    "links": [
+      {"id": 1,"title": "اتاق خبر دیجی‌کالا", "url": "#" ,"priority": 1,"LinkGroupId": 1},
+      {"id": 2, "title": "فروش در دیجی‌کالا", "url": "#", "priority": 2,"LinkGroupId": 1},
+      {"id": 3,"title": "فرصت‌های شغلی", "url": "#", "LinkGroupId": 1},
+      {"id": 4,"title": "گزارش تخلف در دیجی‌کالا", "url": "#","priority": 3,"LinkGroupId":1},
+      {"id": 5, "title": "تماس با دیجی‌کالا", "url": "#","priority": 4,"LinkGroupId": 1},
+      {"id": 6, "title": "درباره دیجی‌کالا", "url": "#", "priority": 5,"LinkGroupId": 1},
+      {"id": 7, "title": "پاسخ به پرسش‌های متداول", "url": "#", "priority": 1, "LinkGroupId": 2},
+      {"id": 8, "title": "رویه‌های بازگرداندن کالا", "url": "#","priority": 2, "LinkGroupId": 2},
+      {"id":9, "title": "شرایط استفاده", "url": "#","priority": 3, "LinkGroupId": 2},
+      {"id": 10, "title": "حریم خصوصی", "url": "#", "priority": 4, "LinkGroupId": 2},
+      {"id":11, "title": "گزارش باگ", "url": "#","priority": 5, "LinkGroupId": 2},
+      {"id": 12, "title": "نحوه ثبت سفارش", "url": "#","priority": 1, "LinkGroupId": 3},
+      {"id": 13, "title": "رویه ارسال سفارش", "url": "#","priority": 2, "LinkGroupId": 3},
+      {"id": 14,"title": "شیوه‌های پرداخت", "url": "#","priority": 3, "LinkGroupId": 3}
+    ]
+  }
