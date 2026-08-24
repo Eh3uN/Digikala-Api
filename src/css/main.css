@@ -20,6 +20,12 @@ body {
   margin: 0;
 }
 
+.site-container {
+  width: 100%;
+  max-width: 1800px;
+  margin-inline: auto;
+}
+
 ::-webkit-scrollbar {
   width: 14px;
 }
@@ -94,4 +100,149 @@ body {
 
 #mobile-menu details[open] > summary::after {
   transform: rotate(180deg);
+}
+
+@media (min-width: 1024px) {
+  #hero-slider-root {
+    width: 100%;
+    max-width: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .hero-swiper {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    aspect-ratio: auto;
+    overflow: hidden;
+    border-radius: 0;
+    background: #f0f0f1;
+  }
+
+  .hero-swiper .swiper-wrapper,
+  .hero-swiper .swiper-slide,
+  .hero-swiper-link {
+    height: 100%;
+  }
+
+  .hero-swiper-link {
+    display: block;
+    width: 100%;
+  }
+
+  .hero-swiper-image {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .hero-swiper-pagination {
+    position: absolute;
+    z-index: 3;
+    right: 0;
+    bottom: 14px;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+  }
+
+  .hero-swiper-pagination[hidden],
+  .hero-swiper-prev[hidden],
+  .hero-swiper-next[hidden] {
+    display: none;
+  }
+
+  .hero-swiper-pagination .swiper-pagination-bullet {
+    width: 6px;
+    height: 6px;
+    margin: 0;
+    border-radius: 999px;
+    background: #fff;
+    box-shadow: 0 1px 3px rgb(0 0 0 / 25%);
+    opacity: 0.7;
+    transition:
+      width 0.25s ease,
+      background-color 0.25s ease,
+      opacity 0.25s ease;
+  }
+
+  .hero-swiper-pagination .swiper-pagination-bullet-active {
+    width: 18px;
+    background: #3f4064;
+    opacity: 1;
+  }
+
+  .hero-swiper-prev,
+  .hero-swiper-next {
+    position: absolute;
+    z-index: 4;
+    top: auto;
+    bottom: 24px;
+    left: auto;
+    display: flex;
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #e0e0e2;
+    border-radius: 50%;
+    background: #fff;
+    color: #3f4064;
+    font-size: 26px;
+    line-height: 1;
+    cursor: pointer;
+    opacity: 0;
+    visibility: hidden;
+    transform: none;
+    transition:
+      opacity 0.2s ease,
+      visibility 0.2s ease,
+      box-shadow 0.2s ease;
+  }
+
+  .hero-swiper-prev {
+    right: 72px;
+  }
+
+  .hero-swiper-next {
+    right: 24px;
+  }
+
+  .hero-swiper-prev::before,
+  .hero-swiper-next::before {
+    display: block;
+    direction: ltr;
+    unicode-bidi: isolate;
+  }
+
+  .hero-swiper-prev::before {
+    content: "❮";
+  }
+
+  .hero-swiper-next::before {
+    content: "❯";
+  }
+
+  .hero-swiper:hover .hero-swiper-prev,
+  .hero-swiper:hover .hero-swiper-next,
+  .hero-swiper-prev:focus-visible,
+  .hero-swiper-next:focus-visible {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .hero-swiper-prev:hover,
+  .hero-swiper-next:hover {
+    box-shadow: 0 2px 8px rgb(0 0 0 / 18%);
+  }
+
+  .hero-swiper-prev.swiper-button-disabled,
+  .hero-swiper-next.swiper-button-disabled {
+    cursor: default;
+    opacity: 0.35;
+  }
 }

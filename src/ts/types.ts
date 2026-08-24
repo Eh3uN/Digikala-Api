@@ -81,3 +81,21 @@ export interface HeaderResources {
   banners: BannerItem[];
   menu: MenuItem[];
 }
+
+export interface SliderImages {
+  desktop: string;
+  mobile: string;
+}
+
+export interface SliderItem {
+  id: number;
+  title: string;
+  description: string;
+  images: SliderImages;
+  alt: string;
+  url: string;
+  priority: number;
+  active: boolean;
+}
+
+export type SliderResponse = SliderItem[];

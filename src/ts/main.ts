@@ -1,5 +1,6 @@
 import { getHeaderResources } from "./api";
 import { renderHeader } from "./components";
+import Slider from "./slider";
 
 async function initializeHeader(): Promise<void> {
   try {
@@ -11,3 +12,9 @@ async function initializeHeader(): Promise<void> {
 }
 
 void initializeHeader();
+
+const desktopSlider = window.matchMedia("(min-width: 1024px)");
+
+if (desktopSlider.matches) {
+  void Slider();
+}

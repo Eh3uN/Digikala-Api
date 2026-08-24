@@ -1,0 +1,80 @@
+[
+  {
+    "id": 10023456,
+    "title": "خرید اقساطی دیجی‌کالا",
+    "description": "خرید اقساطی محصولات منتخب با تحویل سریع",
+    "images": {
+      "desktop": "assets/images/sliderBanner/banner-1.gif",
+      "mobile": "assets/images/sliderBanner/banner-1.gif"
+    },
+    "alt": "خرید اقساطی محصولات منتخب دیجی‌کالا",
+    "url": "#",
+    "priority": 1,
+    "active": true
+  },
+  {
+    "id": 10155667,
+    "title": "جشنواره محصولات چرم مشهد",
+    "description": "تخفیف محصولات چرم مشهد در جشنواره پایان فصل",
+    "images": {
+      "desktop": "assets/images/sliderBanner/banner-2.webp",
+      "mobile": "assets/images/sliderBanner/banner-2.webp"
+    },
+    "alt": "جشنواره تخفیف محصولات چرم مشهد",
+    "url": "#",
+    "priority": 5,
+    "active": true
+  },
+  {
+    "id": 10155668,
+    "title": "خرید اقساطی لوازم ورزش و سفر",
+    "description": "خرید اقساطی کالاهای ورزشی، کمپ و سفر",
+    "images": {
+      "desktop": "assets/images/sliderBanner/banner-3.webp",
+      "mobile": "assets/images/sliderBanner/banner-3.webp"
+    },
+    "alt": "خرید اقساطی لوازم ورزش و سفر",
+    "url": "#",
+    "priority": 6,
+    "active": true
+  },
+  {
+    "id": 10155669,
+    "title": "محصولات مراقبت پوست ویتالیر",
+    "description": "محصولات مراقبت پوست ویتالیر برای انواع پوست",
+    "images": {
+      "desktop": "assets/images/sliderBanner/banner-4.webp",
+      "mobile": "assets/images/sliderBanner/banner-4.webp"
+    },
+    "alt": "محصولات مراقبت پوست ویتالیر",
+    "url": "#",
+    "priority": 7,
+    "active": true
+  },
+  {
+    "id": 10155670,
+    "title": "حراج سر ماه دیجی‌استایل",
+    "description": "حراج پوشاک دیجی‌استایل در ابتدای هر ماه",
+    "images": {
+      "desktop": "assets/images/sliderBanner/banner-5.webp",
+      "mobile": "assets/images/sliderBanner/banner-5.webp"
+    },
+    "alt": "حراج سر ماه پوشاک دیجی‌استایل",
+    "url": "#",
+    "priority": 8,
+    "active": true
+  },
+  {
+    "id": 10155671,
+    "title": "تخفیف سوپرمارکت دیجی‌کالا",
+    "description": "تخفیف محصولات سوپرمارکتی دیجی‌کالا",
+    "images": {
+      "desktop": "assets/images/sliderBanner/banner-6.gif",
+      "mobile": "assets/images/sliderBanner/banner-6.gif"
+    },
+    "alt": "تخفیف محصولات سوپرمارکت دیجی‌کالا",
+    "url": "#",
+    "priority": 9,
+    "active": true
+  }
+]
