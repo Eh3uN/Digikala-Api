@@ -137,7 +137,166 @@
           "variant": "megaCategory",
           "allLabel": "همه محصولات موبایل"
         },
-        { "id": 12, "title": "لپ‌تاپ", "url": "#", "type": "normalMenu", "submenu": [], "mega": true, "priority": 2, "icon": "assets/images/header/Navbar/megaMenu/mega-laptop.svg", "variant": "megaCategory" },
+        {
+          "id": 12,
+          "title": "لپ‌تاپ",
+          "url": "#",
+          "type": "subMenu",
+          "submenu": [
+            {
+              "id": 121,
+              "title": "انتخاب لپ‌تاپ",
+              "url": "#",
+              "type": "subMenu",
+              "submenu": [
+                { "id": 1211, "title": "لپ‌تاپ ایسوس", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 1, "variant": "megaLink" },
+                { "id": 1212, "title": "لپ‌تاپ لنوو", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 2, "variant": "megaLink" },
+                { "id": 1213, "title": "لپ‌تاپ ایسر", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 3, "variant": "megaLink" },
+                { "id": 1214, "title": "لپ‌تاپ اچ‌پی", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 4, "variant": "megaLink" },
+                { "id": 1215, "title": "لپ‌تاپ ام‌اس‌آی", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 5, "variant": "megaLink" },
+                { "id": 1216, "title": "لپ‌تاپ اپل", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 6, "variant": "megaLink" },
+                { "id": 1217, "title": "لپ‌تاپ دل", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 7, "variant": "megaLink" }
+              ],
+              "mega": false,
+              "priority": 1,
+              "variant": "megaColumn"
+            },
+            {
+              "id": 122,
+              "title": "لپ‌تاپ گیمینگ",
+              "url": "#",
+              "type": "subMenu",
+              "submenu": [
+                { "id": 1221, "title": "لپ‌تاپ گیمینگ ایسوس", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 1, "variant": "megaLink" },
+                { "id": 1222, "title": "لپ‌تاپ گیمینگ لنوو", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 2, "variant": "megaLink" },
+                { "id": 1223, "title": "لپ‌تاپ گیمینگ ایسر", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 3, "variant": "megaLink" },
+                { "id": 1224, "title": "لپ‌تاپ گیمینگ اچ‌پی", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 4, "variant": "megaLink" },
+                { "id": 1225, "title": "لپ‌تاپ گیمینگ ام‌اس‌آی", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 5, "variant": "megaLink" }
+              ],
+              "mega": false,
+              "priority": 2,
+              "variant": "megaColumn"
+            },
+            {
+              "id": 123,
+              "title": "قیمت لپ‌تاپ",
+              "url": "#",
+              "type": "subMenu",
+              "submenu": [
+                { "id": 1231, "title": "لپ‌تاپ تا ۵۰ میلیون", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 1, "variant": "megaLink" },
+                { "id": 1232, "title": "لپ‌تاپ تا ۶۰ میلیون", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 2, "variant": "megaLink" },
+                { "id": 1233, "title": "لپ‌تاپ تا ۷۰ میلیون", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 3, "variant": "megaLink" },
+                { "id": 1234, "title": "لپ‌تاپ تا ۸۰ میلیون", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 4, "variant": "megaLink" },
+                { "id": 1235, "title": "لپ‌تاپ تا ۹۰ میلیون", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 5, "variant": "megaLink" },
+                { "id": 1236, "title": "لپ‌تاپ تا ۱۰۰ میلیون", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 6, "variant": "megaLink" }
+              ],
+              "mega": false,
+              "priority": 3,
+              "variant": "megaColumn"
+            },
+            {
+              "id": 124,
+              "title": "لپ‌تاپ ایسوس",
+              "url": "#",
+              "type": "subMenu",
+              "submenu": [
+                { "id": 1241, "title": "Vivobook", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 1, "variant": "megaLink" },
+                { "id": 1242, "title": "Zenbook", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 2, "variant": "megaLink" },
+                { "id": 1243, "title": "TUF Gaming", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 3, "variant": "megaLink" },
+                { "id": 1244, "title": "ROG", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 4, "variant": "megaLink" }
+              ],
+              "mega": false,
+              "priority": 4,
+              "variant": "megaColumn"
+            },
+            {
+              "id": 125,
+              "title": "لپ‌تاپ لنوو",
+              "url": "#",
+              "type": "subMenu",
+              "submenu": [
+                { "id": 1251, "title": "V15", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 1, "variant": "megaLink" },
+                { "id": 1252, "title": "IdeaPad 1", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 2, "variant": "megaLink" },
+                { "id": 1253, "title": "IdeaPad Slim 3", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 3, "variant": "megaLink" },
+                { "id": 1254, "title": "ThinkPad", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 4, "variant": "megaLink" },
+                { "id": 1255, "title": "LOQ", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 5, "variant": "megaLink" }
+              ],
+              "mega": false,
+              "priority": 5,
+              "variant": "megaColumn"
+            },
+            {
+              "id": 126,
+              "title": "براساس مدل کارت گرافیک",
+              "url": "#",
+              "type": "subMenu",
+              "submenu": [
+                { "id": 1261, "title": "RTX 2050", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 1, "variant": "megaLink" },
+                { "id": 1262, "title": "RTX 3050", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 2, "variant": "megaLink" },
+                { "id": 1263, "title": "RTX 4050", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 3, "variant": "megaLink" },
+                { "id": 1264, "title": "RTX 4060", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 4, "variant": "megaLink" },
+                { "id": 1265, "title": "RTX 4070", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 5, "variant": "megaLink" },
+                { "id": 1266, "title": "RTX 5050", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 6, "variant": "megaLink" },
+                { "id": 1267, "title": "RTX 5060", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 7, "variant": "megaLink" }
+              ],
+              "mega": false,
+              "priority": 6,
+              "variant": "megaColumn"
+            },
+            {
+              "id": 127,
+              "title": "براساس کاربری",
+              "url": "#",
+              "type": "subMenu",
+              "submenu": [
+                { "id": 1271, "title": "لپ‌تاپ دانشجویی", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 1, "variant": "megaLink" },
+                { "id": 1272, "title": "لپ‌تاپ گیمینگ", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 2, "variant": "megaLink" },
+                { "id": 1273, "title": "لپ‌تاپ مالتی‌مدیا", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 3, "variant": "megaLink" },
+                { "id": 1274, "title": "لپ‌تاپ طراحی و مهندسی", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 4, "variant": "megaLink" }
+              ],
+              "mega": false,
+              "priority": 7,
+              "variant": "megaColumn"
+            },
+            {
+              "id": 128,
+              "title": "لوازم جانبی لپ‌تاپ",
+              "url": "#",
+              "type": "subMenu",
+              "submenu": [
+                { "id": 1281, "title": "کول پد", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 1, "variant": "megaLink" },
+                { "id": 1282, "title": "کیف لپ‌تاپ", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 2, "variant": "megaLink" },
+                { "id": 1283, "title": "کوله لپ‌تاپ", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 3, "variant": "megaLink" },
+                { "id": 1284, "title": "شارژر لپ‌تاپ", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 4, "variant": "megaLink" },
+                { "id": 1285, "title": "استند لپ‌تاپ", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 5, "variant": "megaLink" }
+              ],
+              "mega": false,
+              "priority": 8,
+              "variant": "megaColumn"
+            },
+            {
+              "id": 129,
+              "title": "مک‌بوک",
+              "url": "#",
+              "type": "subMenu",
+              "submenu": [
+                { "id": 1291, "title": "MacBook Air M1", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 1, "variant": "megaLink" },
+                { "id": 1292, "title": "MacBook Air M2", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 2, "variant": "megaLink" },
+                { "id": 1293, "title": "MacBook Air M3", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 3, "variant": "megaLink" },
+                { "id": 1294, "title": "MacBook Pro M3", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 4, "variant": "megaLink" },
+                { "id": 1295, "title": "MacBook Pro M4", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 5, "variant": "megaLink" }
+              ],
+              "mega": false,
+              "priority": 9,
+              "variant": "megaColumn"
+            }
+          ],
+          "mega": true,
+          "priority": 2,
+          "icon": "assets/images/header/Navbar/megaMenu/mega-laptop.svg",
+          "variant": "megaCategory",
+          "allLabel": "همه محصولات لپ‌تاپ"
+        },
         { "id": 13, "title": "کالای دیجیتال", "url": "#", "type": "normalMenu", "submenu": [], "mega": true, "priority": 3, "icon": "assets/images/header/Navbar/megaMenu/mega-electric.svg", "variant": "megaCategory" },
         { "id": 14, "title": "خانه و آشپزخانه", "url": "#", "type": "normalMenu", "submenu": [], "mega": true, "priority": 4, "icon": "assets/images/header/Navbar/megaMenu/mega-sofa.svg", "variant": "megaCategory" },
         { "id": 15, "title": "لوازم خانگی برقی", "url": "#", "type": "normalMenu", "submenu": [], "mega": true, "priority": 5, "icon": "assets/images/header/Navbar/megaMenu/mega-electric.svg", "variant": "megaCategory" },
@@ -148,7 +307,153 @@
         { "id": 20, "title": "سلامت و پزشکی", "url": "#", "type": "normalMenu", "submenu": [], "mega": true, "priority": 10, "icon": "assets/images/header/Navbar/megaMenu/mega-medical.svg", "variant": "megaCategory" },
         { "id": 21, "title": "ابزارآلات و تجهیزات", "url": "#", "type": "normalMenu", "submenu": [], "mega": true, "priority": 11, "icon": "assets/images/header/Navbar/megaMenu/mega-tools.svg", "variant": "megaCategory" },
         { "id": 22, "title": "ورزش و سفر", "url": "#", "type": "normalMenu", "submenu": [], "mega": true, "priority": 12, "icon": "assets/images/header/Navbar/megaMenu/mega-sport.svg", "variant": "megaCategory" },
-        { "id": 23, "title": "کتاب و لوازم تحریر", "url": "#", "type": "normalMenu", "submenu": [], "mega": true, "priority": 13, "icon": "assets/images/header/Navbar/megaMenu/mega-art.svg", "variant": "megaCategory" }
+        {
+          "id": 23,
+          "title": "لوازم تحریر",
+          "url": "#",
+          "type": "subMenu",
+          "submenu": [
+            {
+              "id": 231,
+              "title": "نوشت‌افزار",
+              "url": "#",
+              "type": "subMenu",
+              "submenu": [
+                { "id": 2311, "title": "مداد", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 1, "variant": "megaLink" },
+                { "id": 2312, "title": "مداد طراحی", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 2, "variant": "megaLink" },
+                { "id": 2313, "title": "مداد B2", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 3, "variant": "megaLink" },
+                { "id": 2314, "title": "مداد B6", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 4, "variant": "megaLink" },
+                { "id": 2315, "title": "مداد HB", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 5, "variant": "megaLink" },
+                { "id": 2316, "title": "مداد سه‌گوش", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 6, "variant": "megaLink" },
+                { "id": 2317, "title": "مداد کرومی", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 7, "variant": "megaLink" },
+                { "id": 2318, "title": "مدادتراش", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 8, "variant": "megaLink" },
+                { "id": 2319, "title": "ماژیک هایلایتر", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 9, "variant": "megaLink" },
+                { "id": 23110, "title": "ماژیک", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 10, "variant": "megaLink" },
+                { "id": 23111, "title": "ماژیک وایت‌برد", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 11, "variant": "megaLink" },
+                { "id": 23112, "title": "ماژیک راندو", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 12, "variant": "megaLink" },
+                { "id": 23113, "title": "ماژیک رنگی", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 13, "variant": "megaLink" }
+              ],
+              "mega": false,
+              "priority": 1,
+              "variant": "megaColumn"
+            },
+            {
+              "id": 232,
+              "title": "ابزار طراحی و مهندسی",
+              "url": "#",
+              "type": "subMenu",
+              "submenu": [
+                { "id": 2321, "title": "خط‌کش", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 1, "variant": "megaLink" },
+                { "id": 2322, "title": "خط‌کش فلزی", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 2, "variant": "megaLink" },
+                { "id": 2323, "title": "خط‌کش پلاستیکی", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 3, "variant": "megaLink" },
+                { "id": 2324, "title": "پرگار", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 4, "variant": "megaLink" }
+              ],
+              "mega": false,
+              "priority": 2,
+              "variant": "megaColumn"
+            },
+            {
+              "id": 233,
+              "title": "کیف و کوله مدرسه",
+              "url": "#",
+              "type": "subMenu",
+              "submenu": [
+                { "id": 2331, "title": "کوله پشتی ضد آب", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 1, "variant": "megaLink" },
+                { "id": 2332, "title": "کوله مهد کودک", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 2, "variant": "megaLink" },
+                { "id": 2333, "title": "کوله پشتی چرخ‌دار", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 3, "variant": "megaLink" },
+                { "id": 2334, "title": "کوله پشتی یونیکورن", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 4, "variant": "megaLink" },
+                { "id": 2335, "title": "کوله پشتی هری پاتر", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 5, "variant": "megaLink" },
+                { "id": 2336, "title": "کوله پشتی بتمن", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 6, "variant": "megaLink" },
+                { "id": 2337, "title": "کوله پشتی باب اسفنجی", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 7, "variant": "megaLink" }
+              ],
+              "mega": false,
+              "priority": 3,
+              "variant": "megaColumn"
+            },
+            {
+              "id": 234,
+              "title": "بسته‌های لوازم تحریر",
+              "url": "#",
+              "type": "subMenu",
+              "submenu": [
+                { "id": 2341, "title": "لوازم تحریر طرح انیمه", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 1, "variant": "megaLink" },
+                { "id": 2342, "title": "لوازم تحریر کرومی", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 2, "variant": "megaLink" },
+                { "id": 2343, "title": "لوازم تحریر سینامورول", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 3, "variant": "megaLink" },
+                { "id": 2344, "title": "لوازم تحریر هلوکیتی", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 4, "variant": "megaLink" },
+                { "id": 2345, "title": "لوازم تحریر مرد عنکبوتی", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 5, "variant": "megaLink" },
+                { "id": 2346, "title": "لوازم تحریر لوبوبو", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 6, "variant": "megaLink" },
+                { "id": 2347, "title": "لوازم تحریر هری پاتر", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 7, "variant": "megaLink" },
+                { "id": 2348, "title": "لوازم تحریر بتمن", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 8, "variant": "megaLink" },
+                { "id": 2349, "title": "لوازم تحریر موجی", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 9, "variant": "megaLink" },
+                { "id": 23410, "title": "لوازم تحریر سونیک", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 10, "variant": "megaLink" },
+                { "id": 23411, "title": "لوازم تحریر بسکتبال", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 11, "variant": "megaLink" },
+                { "id": 23412, "title": "لوازم تحریر ون‌گوگ", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 12, "variant": "megaLink" },
+                { "id": 23413, "title": "لوازم تحریر ماینکرافت", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 13, "variant": "megaLink" }
+              ],
+              "mega": false,
+              "priority": 4,
+              "variant": "megaColumn"
+            },
+            {
+              "id": 235,
+              "title": "لوازم اداری",
+              "url": "#",
+              "type": "subMenu",
+              "submenu": [
+                { "id": 2351, "title": "زونکن", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 1, "variant": "megaLink" },
+                { "id": 2352, "title": "پوشه و کلاسور", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 2, "variant": "megaLink" },
+                { "id": 2353, "title": "گیره کاغذ", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 3, "variant": "megaLink" },
+                { "id": 2354, "title": "منگنه", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 4, "variant": "megaLink" },
+                { "id": 2355, "title": "پانچ", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 5, "variant": "megaLink" }
+              ],
+              "mega": false,
+              "priority": 5,
+              "variant": "megaColumn"
+            },
+            {
+              "id": 236,
+              "title": "دفتر و کاغذ و مقوا",
+              "url": "#",
+              "type": "subMenu",
+              "submenu": [
+                { "id": 2361, "title": "دفتر", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 1, "variant": "megaLink" },
+                { "id": 2362, "title": "دفتر ۵۰ برگ", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 2, "variant": "megaLink" },
+                { "id": 2363, "title": "دفتر ۶۰ برگ", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 3, "variant": "megaLink" },
+                { "id": 2364, "title": "دفتر ۸۰ برگ", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 4, "variant": "megaLink" },
+                { "id": 2365, "title": "دفتر ۱۰۰ برگ", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 5, "variant": "megaLink" },
+                { "id": 2366, "title": "دفتر ۱۲۰ برگ", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 6, "variant": "megaLink" },
+                { "id": 2367, "title": "دفتر کلاسوری", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 7, "variant": "megaLink" },
+                { "id": 2368, "title": "کاغذ و مقوا رنگی", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 8, "variant": "megaLink" }
+              ],
+              "mega": false,
+              "priority": 6,
+              "variant": "megaColumn"
+            },
+            {
+              "id": 237,
+              "title": "جامدادی",
+              "url": "#",
+              "type": "subMenu",
+              "submenu": [
+                { "id": 2371, "title": "جامدادی تبلیغاتی", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 1, "variant": "megaLink" },
+                { "id": 2372, "title": "جامدادی کرومی", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 2, "variant": "megaLink" },
+                { "id": 2373, "title": "جامدادی شفاف", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 3, "variant": "megaLink" },
+                { "id": 2374, "title": "جامدادی باب اسفنجی", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 4, "variant": "megaLink" },
+                { "id": 2375, "title": "جامدادی فضانورد", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 5, "variant": "megaLink" },
+                { "id": 2376, "title": "جامدادی دخترانه", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 6, "variant": "megaLink" },
+                { "id": 2377, "title": "جامدادی پسرانه", "url": "#", "type": "normalMenu", "submenu": [], "mega": false, "priority": 7, "variant": "megaLink" }
+              ],
+              "mega": false,
+              "priority": 7,
+              "variant": "megaColumn"
+            }
+          ],
+          "mega": true,
+          "priority": 13,
+          "icon": "assets/images/header/Navbar/megaMenu/mega-art.svg",
+          "variant": "megaCategory",
+          "allLabel": "همه محصولات لوازم تحریر"
+        }
       ],
       "mega": true,
       "priority": 1,

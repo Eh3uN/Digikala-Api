@@ -76,12 +76,6 @@ export interface MenuResponse {
   menu: MenuItem[];
 }
 
-export interface HeaderResources {
-  header: HeaderData;
-  banners: BannerItem[];
-  menu: MenuItem[];
-}
-
 export interface SliderImages {
   desktop: string;
   mobile: string;
