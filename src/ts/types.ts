@@ -93,3 +93,23 @@ export interface SliderItem {
 }
 
 export type SliderResponse = SliderItem[];
+
+export interface Product {
+  id: string | number;
+  title: string;
+  category: string;
+  category_fa: string;
+  brand: string;
+  price: number;
+  discount: number;
+  rating: number;
+  sales_rank: number | null;
+  stock: boolean;
+  image: string;
+  url: string;
+  is_amazing: boolean;
+  is_fresh: boolean;
+  priority: number;
+}
+
+export type ProductResponse = Product[];

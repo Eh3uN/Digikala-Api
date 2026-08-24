@@ -13,7 +13,10 @@
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="/src/css/main.css" />
   </head>
+
   <body class="bg-white text-[#0c0c0c]">
+    <!--#region wrapper-->
+    <!--#region header-->
     <header class="inline-block w-full border-b border-[#e5e7eb] bg-white">
       <h1 id="header-heading" class="sr-only"></h1>
 
@@ -140,7 +143,8 @@
         </div>
       </div>
     </header>
-
+    <!--#endregion header-->
+    <!--#region Banner-slider-->
     <section
       id="hero-slider-root"
       class="hidden lg:block"
@@ -164,6 +168,9 @@
         ></button>
       </div>
     </section>
+    <!--#endregion Banner-slider-->
+
+    <!--#region service-->
 
     <section aria-label="خدمات دیجی‌کالا">
       <div class="site-container">
@@ -344,7 +351,111 @@
         </div>
       </div>
     </section>
+    <!--#endregion service-->
 
+    <!--#region Amazing-->
+
+    <section
+      class="site-container px-4 pb-6 lg:px-6"
+      aria-labelledby="amazing-title"
+    >
+      <div
+        class="mx-auto flex h-[286px] w-full max-w-[1304px] box-border overflow-hidden rounded-2xl bg-[#D32C4E] py-5 lg:h-[314px]"
+        dir="rtl"
+      >
+        <aside
+          class="flex h-full w-[140px] shrink-0 flex-col items-center justify-center gap-3 text-white sm:w-[160px] lg:w-[180px]"
+        >
+          <img
+            src="/assets/images/amazing/smileShapedPercent.svg"
+            alt=""
+            class="h-12 w-14 object-contain"
+          />
+
+          <h2 id="amazing-title" class="flex items-center justify-center">
+            <img
+              src="/assets/images/amazing/amazingLogo.svg"
+              alt="شگفت‌انگیز"
+              class="h-auto w-[128px] object-contain lg:w-[140px]"
+            />
+          </h2>
+
+          <div class="flex items-center gap-1 text-sm font-yekan" dir="ltr">
+            <span
+              id="amazing-hours"
+              class="flex h-7 min-w-7 items-center justify-center rounded-md bg-white px-1 text-[#3f4064]"
+              >23</span
+            >
+            <span aria-hidden="true">:</span>
+            <span
+              id="amazing-minutes"
+              class="flex h-7 min-w-7 items-center justify-center rounded-md bg-white px-1 text-[#3f4064]"
+              >59</span
+            >
+            <span aria-hidden="true">:</span>
+            <span
+              id="amazing-seconds"
+              class="flex h-7 min-w-7 items-center justify-center rounded-md bg-white px-1 text-[#3f4064]"
+              >59</span
+            >
+          </div>
+          <a
+            href="#"
+            class="rounded-lg bg-white px-3 py-2 text-xs font-yekan text-[#3f4064] text-[16px]"
+          >
+            مشاهده همه ←
+          </a>
+        </aside>
+
+        <div
+          class="swiper amazing-swiper relative h-full min-w-0 flex-1 overflow-hidden"
+          dir="rtl"
+        >
+          <div class="swiper-wrapper h-full"></div>
+
+          <button
+            type="button"
+            class="amazing-swiper-prev absolute top-1/2 right-3 z-20 flex h-10 w-10 -translate-y-1/2 cursor-pointer items-center justify-center rounded-full border border-[#e0e0e2] bg-white text-xl text-[#3f4064] shadow-sm transition-opacity [&.swiper-button-disabled]:invisible [&.swiper-button-disabled]:opacity-0"
+            aria-label="محصولات قبلی"
+          >
+            <span
+              class="block leading-none [direction:ltr] [unicode-bidi:isolate]"
+              aria-hidden="true"
+              >❯</span
+            >
+          </button>
+
+          <button
+            type="button"
+            class="amazing-swiper-next absolute top-1/2 left-3 z-20 flex h-10 w-10 -translate-y-1/2 cursor-pointer items-center justify-center rounded-full border border-[#e0e0e2] bg-white text-xl text-[#3f4064] shadow-sm transition-opacity [&.swiper-button-disabled]:invisible [&.swiper-button-disabled]:opacity-0"
+            aria-label="محصولات بعدی"
+          >
+            <span
+              class="block leading-none [direction:ltr] [unicode-bidi:isolate]"
+              aria-hidden="true"
+              >❮</span
+            >
+          </button>
+        </div>
+      </div>
+    </section>
+    <!--#endregion Amazing-->
+
+    <!--#region ads-->
+    <div class="ads flex gap-3 justify-center mx-auto w-[80%] h-59 mb-5">
+      <img class="rounded-2xl" src="/assets/images/ads/image-1.gif" alt="" />
+      <img class="rounded-2xl" src="/assets/images/ads/image-2.jpg" alt="" />
+      <img class="rounded-2xl" src="/assets/images/ads/image-3.jpg" alt="" />
+      <img class="rounded-2xl" src="/assets/images/ads/image-4.jpg" alt="" />
+    </div>
+    <div class="ads flex gap-3 justify-center mx-auto w-[80%] h-59">
+      <img class="rounded-2xl" src="/assets/images/ads/image-5.jpg" alt="" />
+      <img class="rounded-2xl" src="/assets/images/ads/image-6.gif" alt="" />
+      <img class="rounded-2xl" src="/assets/images/ads/image-7.jpg" alt="" />
+      <img class="rounded-2xl" src="/assets/images/ads/image-8.jpg" alt="" />
+    </div>
+    <!--#endregion ads-->
     <script type="module" src="/src/ts/main.ts"></script>
+    <!--#endregion wrapper-->
   </body>
 </html>
