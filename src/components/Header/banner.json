@@ -7,8 +7,8 @@
       "url": "/",
       "images":
         {
-          "desktop": "/assets/images/header/image-1.webp",
-          "mobile": "/assets/images/header/image-1.webp"
+          "desktop": "assets/images/header/image-1.webp",
+          "mobile": "assets/images/header/image-1.webp"
         }
       ,
       "priority": 1,

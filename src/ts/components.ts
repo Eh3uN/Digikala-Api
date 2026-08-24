@@ -22,6 +22,24 @@ function safeUrl(value: string, fallback: string): string {
   }
 }
 
+export function resolvePublicAsset(path: string): string {
+  if (/^(https?:)?\/\//i.test(path) || /^data:/i.test(path)) {
+    return path;
+  }
+
+  const normalizedPath = path
+    .replace(/\\/g, "/")
+    .replace(/^\.\//, "")
+    .replace(/^\/+/, "")
+    .replace(/^public\//, "")
+    .replace(/^\/+/, "");
+  const baseUrl = import.meta.env.BASE_URL.endsWith("/")
+    ? import.meta.env.BASE_URL
+    : `${import.meta.env.BASE_URL}/`;
+
+  return `${baseUrl}${normalizedPath}`;
+}
+
 function sortByPriority<T extends { priority: number }>(items: T[]): T[] {
   return [...items].sort((first, second) => first.priority - second.priority);
 }
@@ -33,7 +51,7 @@ function createImage(
   className: string,
 ): HTMLImageElement {
   const image = document.createElement("img");
-  image.src = safeUrl(source, "");
+  image.src = resolvePublicAsset(source);
   image.alt = alt;
   image.title = title;
   image.className = className;
@@ -50,7 +68,7 @@ function createResponsivePicture(
   const picture = document.createElement("picture");
   const desktopSource = document.createElement("source");
   desktopSource.media = "(min-width: 768px)";
-  desktopSource.srcset = safeUrl(desktop, "");
+  desktopSource.srcset = resolvePublicAsset(desktop);
 
   picture.append(
     desktopSource,

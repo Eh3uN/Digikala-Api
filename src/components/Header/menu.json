@@ -133,26 +133,26 @@
           ],
           "mega": true,
           "priority": 1,
-          "icon": "/assets/images/header/Navbar/megaMenu/mega-mobile.svg",
+          "icon": "assets/images/header/Navbar/megaMenu/mega-mobile.svg",
           "variant": "megaCategory",
           "allLabel": "همه محصولات موبایل"
         },
-        { "id": 12, "title": "لپ‌تاپ", "url": "#", "type": "normalMenu", "submenu": [], "mega": true, "priority": 2, "icon": "/assets/images/header/Navbar/megaMenu/mega-laptop.svg", "variant": "megaCategory" },
-        { "id": 13, "title": "کالای دیجیتال", "url": "#", "type": "normalMenu", "submenu": [], "mega": true, "priority": 3, "icon": "/assets/images/header/Navbar/megaMenu/mega-electric.svg", "variant": "megaCategory" },
-        { "id": 14, "title": "خانه و آشپزخانه", "url": "#", "type": "normalMenu", "submenu": [], "mega": true, "priority": 4, "icon": "/assets/images/header/Navbar/megaMenu/mega-sofa.svg", "variant": "megaCategory" },
-        { "id": 15, "title": "لوازم خانگی برقی", "url": "#", "type": "normalMenu", "submenu": [], "mega": true, "priority": 5, "icon": "/assets/images/header/Navbar/megaMenu/mega-electric.svg", "variant": "megaCategory" },
-        { "id": 16, "title": "آرایشی بهداشتی", "url": "#", "type": "normalMenu", "submenu": [], "mega": true, "priority": 6, "icon": "/assets/images/header/Navbar/megaMenu/mega-makeup.svg", "variant": "megaCategory" },
-        { "id": 17, "title": "مد و پوشاک", "url": "#", "type": "normalMenu", "submenu": [], "mega": true, "priority": 7, "icon": "/assets/images/header/Navbar/megaMenu/mega-kids.svg", "variant": "megaCategory" },
-        { "id": 18, "title": "طلا و نقره", "url": "#", "type": "normalMenu", "submenu": [], "mega": true, "priority": 8, "icon": "/assets/images/header/Navbar/megaMenu/mega-jewlery.svg", "variant": "megaCategory" },
-        { "id": 19, "title": "خودرو و موتورسیکلت", "url": "#", "type": "normalMenu", "submenu": [], "mega": true, "priority": 9, "icon": "/assets/images/header/Navbar/megaMenu/mega-cars.svg", "variant": "megaCategory" },
-        { "id": 20, "title": "سلامت و پزشکی", "url": "#", "type": "normalMenu", "submenu": [], "mega": true, "priority": 10, "icon": "/assets/images/header/Navbar/megaMenu/mega-medical.svg", "variant": "megaCategory" },
-        { "id": 21, "title": "ابزارآلات و تجهیزات", "url": "#", "type": "normalMenu", "submenu": [], "mega": true, "priority": 11, "icon": "/assets/images/header/Navbar/megaMenu/mega-tools.svg", "variant": "megaCategory" },
-        { "id": 22, "title": "ورزش و سفر", "url": "#", "type": "normalMenu", "submenu": [], "mega": true, "priority": 12, "icon": "/assets/images/header/Navbar/megaMenu/mega-sport.svg", "variant": "megaCategory" },
-        { "id": 23, "title": "کتاب و لوازم تحریر", "url": "#", "type": "normalMenu", "submenu": [], "mega": true, "priority": 13, "icon": "/assets/images/header/Navbar/megaMenu/mega-art.svg", "variant": "megaCategory" }
+        { "id": 12, "title": "لپ‌تاپ", "url": "#", "type": "normalMenu", "submenu": [], "mega": true, "priority": 2, "icon": "assets/images/header/Navbar/megaMenu/mega-laptop.svg", "variant": "megaCategory" },
+        { "id": 13, "title": "کالای دیجیتال", "url": "#", "type": "normalMenu", "submenu": [], "mega": true, "priority": 3, "icon": "assets/images/header/Navbar/megaMenu/mega-electric.svg", "variant": "megaCategory" },
+        { "id": 14, "title": "خانه و آشپزخانه", "url": "#", "type": "normalMenu", "submenu": [], "mega": true, "priority": 4, "icon": "assets/images/header/Navbar/megaMenu/mega-sofa.svg", "variant": "megaCategory" },
+        { "id": 15, "title": "لوازم خانگی برقی", "url": "#", "type": "normalMenu", "submenu": [], "mega": true, "priority": 5, "icon": "assets/images/header/Navbar/megaMenu/mega-electric.svg", "variant": "megaCategory" },
+        { "id": 16, "title": "آرایشی بهداشتی", "url": "#", "type": "normalMenu", "submenu": [], "mega": true, "priority": 6, "icon": "assets/images/header/Navbar/megaMenu/mega-makeup.svg", "variant": "megaCategory" },
+        { "id": 17, "title": "مد و پوشاک", "url": "#", "type": "normalMenu", "submenu": [], "mega": true, "priority": 7, "icon": "assets/images/header/Navbar/megaMenu/mega-kids.svg", "variant": "megaCategory" },
+        { "id": 18, "title": "طلا و نقره", "url": "#", "type": "normalMenu", "submenu": [], "mega": true, "priority": 8, "icon": "assets/images/header/Navbar/megaMenu/mega-jewlery.svg", "variant": "megaCategory" },
+        { "id": 19, "title": "خودرو و موتورسیکلت", "url": "#", "type": "normalMenu", "submenu": [], "mega": true, "priority": 9, "icon": "assets/images/header/Navbar/megaMenu/mega-cars.svg", "variant": "megaCategory" },
+        { "id": 20, "title": "سلامت و پزشکی", "url": "#", "type": "normalMenu", "submenu": [], "mega": true, "priority": 10, "icon": "assets/images/header/Navbar/megaMenu/mega-medical.svg", "variant": "megaCategory" },
+        { "id": 21, "title": "ابزارآلات و تجهیزات", "url": "#", "type": "normalMenu", "submenu": [], "mega": true, "priority": 11, "icon": "assets/images/header/Navbar/megaMenu/mega-tools.svg", "variant": "megaCategory" },
+        { "id": 22, "title": "ورزش و سفر", "url": "#", "type": "normalMenu", "submenu": [], "mega": true, "priority": 12, "icon": "assets/images/header/Navbar/megaMenu/mega-sport.svg", "variant": "megaCategory" },
+        { "id": 23, "title": "کتاب و لوازم تحریر", "url": "#", "type": "normalMenu", "submenu": [], "mega": true, "priority": 13, "icon": "assets/images/header/Navbar/megaMenu/mega-art.svg", "variant": "megaCategory" }
       ],
       "mega": true,
       "priority": 1,
-      "icon": "/assets/images/header/Navbar/Burger.svg",
+      "icon": "assets/images/header/Navbar/Burger.svg",
       "variant": "category",
       "divider": "after"
     },
@@ -164,7 +164,7 @@
       "submenu": [],
       "mega": false,
       "priority": 2,
-      "icon": "/assets/images/header/Navbar/percent.svg",
+      "icon": "assets/images/header/Navbar/percent.svg",
       "variant": "navigation"
     },
     {
@@ -175,7 +175,7 @@
       "submenu": [],
       "mega": false,
       "priority": 3,
-      "icon": "/assets/images/header/Navbar/shoppingBasket.svg",
+      "icon": "assets/images/header/Navbar/shoppingBasket.svg",
       "variant": "navigation"
     },
     {
@@ -186,7 +186,7 @@
       "submenu": [],
       "mega": false,
       "priority": 4,
-      "icon": "/assets/images/header/Navbar/digital-gold.svg",
+      "icon": "assets/images/header/Navbar/digital-gold.svg",
       "variant": "navigation"
     },
     {
@@ -197,7 +197,7 @@
       "submenu": [],
       "mega": false,
       "priority": 5,
-      "icon": "/assets/images/header/Navbar/mostSellings.svg",
+      "icon": "assets/images/header/Navbar/mostSellings.svg",
       "variant": "navigation"
     },
     {
@@ -208,7 +208,7 @@
       "submenu": [],
       "mega": false,
       "priority": 6,
-      "icon": "/assets/images/header/Navbar/clothes.svg",
+      "icon": "assets/images/header/Navbar/clothes.svg",
       "variant": "navigation"
     },
     {
