@@ -113,3 +113,10 @@ export interface Product {
 }
 
 export type ProductResponse = Product[];
+
+export interface AdsItem {
+  id: number;
+  image: string;
+  alt: string;
+  url: string;
+}

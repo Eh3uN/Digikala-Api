@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "image": "assets/images/ads/ad-1.gif",
+    "alt": "بنر تبلیغاتی خرید سر ماه",
+    "url": "#"
+  },
+  {
+    "id": 2,
+    "image": "assets/images/ads/ad-2.jpg",
+    "alt": "بنر تبلیغاتی گوشی نوکیا",
+    "url": "#"
+  },
+  {
+    "id": 3,
+    "image": "assets/images/ads/ad-3.jpg",
+    "alt": "بنر تبلیغاتی طلا و جواهر",
+    "url": "#"
+  },
+  {
+    "id": 4,
+    "image": "assets/images/ads/ad-4.jpg",
+    "alt": "بنر تبلیغاتی جایزه خرید",
+    "url": "#"
+  },
+  {
+    "id": 5,
+    "image": "assets/images/ads/ad-5.gif",
+    "alt": "بنر تبلیغاتی حیوانات خانگی",
+    "url": "#"
+  },
+  {
+    "id": 6,
+    "image": "assets/images/ads/ad-6.jpg",
+    "alt": "بنر تبلیغاتی طلای دیجیتال",
+    "url": "#"
+  },
+  {
+    "id": 7,
+    "image": "assets/images/ads/ad-7.jpg",
+    "alt": "بنر تبلیغاتی کاپوچینو",
+    "url": "#"
+  },
+  {
+    "id": 8,
+    "image": "assets/images/ads/ad-8.jpg",
+    "alt": "بنر تبلیغاتی محصولات شوینده",
+    "url": "#"
+  }
+]

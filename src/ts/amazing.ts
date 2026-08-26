@@ -64,23 +64,23 @@ const tomanIcon = `${import.meta.env.BASE_URL}assets/images/amazing/Tooman.svg`;
               : "";
         const discountBadge =
           item.discount > 0
-            ? `<span class="inline-flex h-7 min-w-10 items-center justify-center rounded-full bg-[#d32f2f] px-2 text-center text-[16px] leading-none tracking-tighter text-white">${formatNumber(item.discount)}٪</span>`
+            ? `<span class="inline-flex h-5 min-w-8 items-center justify-center rounded-full bg-[#d32f2f] px-1 text-center text-[12px] leading-none tracking-tighter text-white">${formatNumber(item.discount)}٪</span>`
             : "";
         const previousPriceMarkup =
           item.discount > 0
-            ? `<div class="mb-1 flex items-center justify-between">
+            ? `<div class="mb-1 flex items-center justify-end gap-1">
                 ${discountBadge}
                 <div class="text-left text-[16px] tracking-tighter text-[#c0c2c5] line-through">${formatNumber(previousPrice)}</div>
               </div>`
             : "";
 
         return `
-          <div class="swiper-slide h-[274px]! w-[164px]! shrink-0 overflow-hidden bg-white ${radiusClass}">
+          <div class="swiper-slide h-68.5! w-41! shrink-0 overflow-hidden bg-white ${radiusClass}">
             <a
               href="${escapeHtml(item.url)}"
               class="flex h-full flex-col px-3 py-2"
             >
-              <div class="flex h-[130px] shrink-0 items-center justify-center">
+              <div class="flex h-32.5 shrink-0 items-center justify-center">
                 <img
                   src="${escapeHtml(item.image)}"
                   alt="${escapeHtml(item.title)}"
