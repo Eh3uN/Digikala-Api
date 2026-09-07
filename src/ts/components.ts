@@ -81,7 +81,7 @@ const createMegaMenu = (item: MenuItem): string => {
     .join("");
 
   return `
-    <div class="header-mega-menu absolute right-0 top-full z-50 hidden h-[calc(100vh-205px)] max-h-155 min-h-130 w-[calc(100vw-48px)] max-w-340 overflow-hidden rounded-b-lg bg-white text-right font-yekan text-[14px] leading-7 text-[#3f4064] shadow-[0_8px_28px_rgba(0,0,0,0.18)] group-hover:flex">
+    <div class="header-mega-menu absolute right-0 top-full z-50 hidden h-[calc(100dvh-205px)] max-h-155 min-h-0 w-[calc(100vw-48px)] max-w-340 overflow-hidden rounded-b-lg bg-white text-right font-yekan text-[14px] leading-7 text-[#3f4064] shadow-[0_8px_28px_rgba(0,0,0,0.18)] group-hover:flex">
       <aside class="h-full w-64 shrink-0 overflow-y-auto border-l border-[#e0e0e2] bg-[#f5f5f5] py-2 text-[#3f4064]">
         ${categoryItems}
       </aside>
@@ -281,10 +281,25 @@ const Header = async (): Promise<void> => {
     );
 
     if (mobileMenuToggle && mobileMenuPanel) {
+      const closeMobileMenu = (): void => {
+        mobileMenuPanel.hidden = true;
+        mobileMenuToggle.setAttribute("aria-expanded", "false");
+      };
+
       mobileMenuToggle.addEventListener("click", () => {
         const isOpen = !mobileMenuPanel.hidden;
         mobileMenuPanel.hidden = isOpen;
         mobileMenuToggle.setAttribute("aria-expanded", String(!isOpen));
+      });
+
+      mobileMenuPanel.addEventListener("keydown", (event) => {
+        if (event.key !== "Escape") return;
+        closeMobileMenu();
+        mobileMenuToggle.focus();
+      });
+
+      window.matchMedia("(min-width: 1024px)").addEventListener("change", (event) => {
+        if (event.matches) closeMobileMenu();
       });
     }
   } catch (error: unknown) {

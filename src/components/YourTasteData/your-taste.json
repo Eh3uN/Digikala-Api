@@ -1,0 +1,101 @@
+{
+  "title": "ویتامین‌ها و مواد معدنی",
+  "subtitle": "بر اساس سلیقه شما",
+  "view_all": {
+    "label": "مشاهده همه",
+    "url": "#"
+  },
+  "product_link_label": "مشاهده محصول",
+  "products": [
+    {
+      "id": 1,
+      "title": "کپسول ویتامین ای ۴۰۰ واحد یوروویتال بسته ۴۰ عددی",
+      "image": "/assets/images/your-taste/taste-1.webp",
+      "url": "#",
+      "price": 3050000,
+      "previous_price": 7930000,
+      "discount": 61,
+      "priority": 1
+    },
+    {
+      "id": 2,
+      "title": "قرص ویتامین D3-1000 واحدی یوروویتال بسته ۶۰ عددی",
+      "image": "/assets/images/your-taste/taste-2.webp",
+      "url": "#",
+      "price": 1800000,
+      "previous_price": 2410000,
+      "discount": 25,
+      "priority": 2
+    },
+    {
+      "id": 3,
+      "title": "قرص زینک پلاس پابا یوروویتال بسته ۶۰ عددی",
+      "image": "/assets/images/your-taste/taste-3.webp",
+      "url": "#",
+      "price": 1557500,
+      "previous_price": 9140000,
+      "discount": 83,
+      "priority": 3
+    },
+    {
+      "id": 4,
+      "title": "قرص اکوفاین یوروویتال بسته ۶۰ عددی",
+      "image": "/assets/images/your-taste/taste-4.webp",
+      "url": "#",
+      "price": 2150000,
+      "previous_price": 13860000,
+      "discount": 84,
+      "priority": 4
+    },
+    {
+      "id": 5,
+      "title": "کپسول فرودین هولیستیکا بسته ۳۲ عددی",
+      "image": "/assets/images/your-taste/taste-5.webp",
+      "url": "#",
+      "price": 2510000,
+      "previous_price": 4397000,
+      "discount": 43,
+      "priority": 5
+    },
+    {
+      "id": 6,
+      "title": "قرص ویتامین د ۳ هلث اید بسته ۳۰ عددی",
+      "image": "/assets/images/your-taste/taste-6.webp",
+      "url": "#",
+      "price": 1044500,
+      "previous_price": 2135000,
+      "discount": 51,
+      "priority": 6
+    },
+    {
+      "id": 7,
+      "title": "قرص ویتامین ب ۳ یوروویتال بسته ۶۰ عددی",
+      "image": "/assets/images/your-taste/taste-7.webp",
+      "url": "#",
+      "price": 1050000,
+      "previous_price": 6600000,
+      "discount": 84,
+      "priority": 7
+    },
+    {
+      "id": 8,
+      "title": "کپسول نورو بی ویت یوروویتال بسته ۶۰ عددی",
+      "image": "/assets/images/your-taste/taste-8.webp",
+      "url": "#",
+      "price": null,
+      "previous_price": null,
+      "discount": 0,
+      "priority": 8
+    },
+    {
+      "id": 9,
+      "title": "کپسول منیزیم پلاس D3 و K2 یوروویتال بسته ۶۰ عددی",
+      "image": "/assets/images/your-taste/taste-9.webp",
+      "url": "#",
+      "price": null,
+      "previous_price": null,
+      "discount": 0,
+      "priority": 9
+    }
+  ]
+}

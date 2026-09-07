@@ -1,0 +1,110 @@
+{
+  "title": "پرفروش‌ترین‌ها",
+  "products": [
+    {
+      "id": 1,
+      "rank": 1,
+      "title": "کاور قاب گارد گوشی طرح فانتزی کد TPU-012 مناسب برای گوشی موبایل",
+      "image": "/assets/images/best-sellers/sellers-1.webp",
+      "url": "#"
+    },
+    {
+      "id": 2,
+      "rank": 2,
+      "title": "کاور گارد ایکس طرح Star Wars مدل Glass10735 مناسب برای گوشی موبایل",
+      "image": "/assets/images/best-sellers/sellers-2.webp",
+      "url": "#"
+    },
+    {
+      "id": 3,
+      "rank": 3,
+      "title": "کاور قاب گارد گوشی طرح فانتزی کد TPU-197 مناسب برای گوشی موبایل",
+      "image": "/assets/images/best-sellers/sellers-3.webp",
+      "url": "#"
+    },
+    {
+      "id": 4,
+      "rank": 4,
+      "title": "کاور قاب گارد گوشی طرح سیاره کد TPU-100 مناسب برای گوشی موبایل",
+      "image": "/assets/images/best-sellers/sellers-4.webp",
+      "url": "#"
+    },
+    {
+      "id": 5,
+      "rank": 5,
+      "title": "کاور قاب گارد گوشی طرح سنگ کد TPU-094 مناسب برای گوشی موبایل",
+      "image": "/assets/images/best-sellers/sellers-5.webp",
+      "url": "#"
+    },
+    {
+      "id": 6,
+      "rank": 6,
+      "title": "کاور قاب گارد گوشی طرح پروانه کد TPU-184 مناسب برای گوشی موبایل",
+      "image": "/assets/images/best-sellers/sellers-6.webp",
+      "url": "#"
+    },
+    {
+      "id": 7,
+      "rank": 7,
+      "title": "کاور قاب گارد گوشی طرح فانتزی کد TPU-012 مناسب برای گوشی موبایل",
+      "image": "/assets/images/best-sellers/sellers-1.webp",
+      "url": "#"
+    },
+    {
+      "id": 8,
+      "rank": 8,
+      "title": "کاور گارد ایکس طرح Star Wars مدل Glass10735 مناسب برای گوشی موبایل",
+      "image": "/assets/images/best-sellers/sellers-2.webp",
+      "url": "#"
+    },
+    {
+      "id": 9,
+      "rank": 9,
+      "title": "کاور قاب گارد گوشی طرح فانتزی کد TPU-197 مناسب برای گوشی موبایل",
+      "image": "/assets/images/best-sellers/sellers-3.webp",
+      "url": "#"
+    },
+    {
+      "id": 10,
+      "rank": 10,
+      "title": "کاور قاب گارد گوشی طرح سیاره کد TPU-100 مناسب برای گوشی موبایل",
+      "image": "/assets/images/best-sellers/sellers-4.webp",
+      "url": "#"
+    },
+    {
+      "id": 11,
+      "rank": 11,
+      "title": "کاور قاب گارد گوشی طرح سنگ کد TPU-094 مناسب برای گوشی موبایل",
+      "image": "/assets/images/best-sellers/sellers-5.webp",
+      "url": "#"
+    },
+    {
+      "id": 12,
+      "rank": 12,
+      "title": "کاور قاب گارد گوشی طرح پروانه کد TPU-184 مناسب برای گوشی موبایل",
+      "image": "/assets/images/best-sellers/sellers-6.webp",
+      "url": "#"
+    },
+    {
+      "id": 13,
+      "rank": 13,
+      "title": "کاور قاب گارد گوشی طرح فانتزی کد TPU-012 مناسب برای گوشی موبایل",
+      "image": "/assets/images/best-sellers/sellers-1.webp",
+      "url": "#"
+    },
+    {
+      "id": 14,
+      "rank": 14,
+      "title": "کاور گارد ایکس طرح Star Wars مدل Glass10735 مناسب برای گوشی موبایل",
+      "image": "/assets/images/best-sellers/sellers-2.webp",
+      "url": "#"
+    },
+    {
+      "id": 15,
+      "rank": 15,
+      "title": "کاور قاب گارد گوشی طرح فانتزی کد TPU-197 مناسب برای گوشی موبایل",
+      "image": "/assets/images/best-sellers/sellers-3.webp",
+      "url": "#"
+    }
+  ]
+}

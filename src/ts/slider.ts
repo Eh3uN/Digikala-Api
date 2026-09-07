@@ -30,6 +30,7 @@ const Slider = async (): Promise<void> => {
 
     const slides = activeSlides.map((item, index) => {
       const imagePath = `${import.meta.env.BASE_URL}${item.images.desktop}`;
+      const mobileImagePath = `${import.meta.env.BASE_URL}${item.images.mobile}`;
 
       return `
         <div class="swiper-slide" data-slide-id="${item.id}">
@@ -38,13 +39,16 @@ const Slider = async (): Promise<void> => {
             class="hero-swiper-link"
             aria-label="${item.title}"
           >
-            <img
-              class="hero-swiper-image"
-              src="${imagePath}"
-              alt="${item.alt}"
-              title="${item.title}"
-              loading="${index === 0 ? "eager" : "lazy"}"
-            />
+            <picture>
+              <source media="(max-width: 1023px)" srcset="${mobileImagePath}" />
+              <img
+                class="hero-swiper-image"
+                src="${imagePath}"
+                alt="${item.alt}"
+                title="${item.title}"
+                loading="${index === 0 ? "eager" : "lazy"}"
+              />
+            </picture>
           </a>
         </div>
       `;

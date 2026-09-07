@@ -101,6 +101,7 @@ export interface Product {
   category_fa: string;
   brand: string;
   price: number;
+  previous_price?: number;
   discount: number;
   rating: number;
   sales_rank: number | null;
@@ -109,6 +110,7 @@ export interface Product {
   url: string;
   is_amazing: boolean;
   is_fresh: boolean;
+  is_green_amazing?: boolean;
   priority: number;
 }
 
@@ -119,4 +121,40 @@ export interface AdsItem {
   image: string;
   alt: string;
   url: string;
+}
+
+export interface YourTasteProduct {
+  id: number;
+  title: string;
+  image: string;
+  url: string;
+  // Prices are stored in rials, like the other product API.
+  price: number | null;
+  previous_price: number | null;
+  discount: number;
+  priority: number;
+}
+
+export interface YourTasteResponse {
+  title: string;
+  subtitle: string;
+  view_all: {
+    label: string;
+    url: string;
+  };
+  product_link_label: string;
+  products: YourTasteProduct[];
+}
+
+export interface BestSellerProduct {
+  id: number;
+  rank: number;
+  title: string;
+  image: string;
+  url: string;
+}
+
+export interface BestSellersResponse {
+  title: string;
+  products: BestSellerProduct[];
 }

@@ -22,7 +22,7 @@
 
       <div id="header-banner" class="header-banner w-full"></div>
 
-      <div class="site-container px-4 lg:px-6">
+      <div class="site-container px-3 sm:px-4 lg:px-6">
         <div
           class="flex flex-wrap items-center justify-between gap-y-3 py-2.5 lg:flex-nowrap lg:gap-5"
         >
@@ -77,6 +77,7 @@
 
             <button
               type="button"
+              aria-label="ورود یا ثبت‌نام"
               class="flex h-10 cursor-pointer items-center gap-2 rounded-lg border-[0.666667px] border-[#dadada] bg-white px-2 py-2 sm:px-4"
             >
               <img
@@ -111,6 +112,10 @@
           <nav id="mobile-menu" aria-label="منوی اصلی موبایل"></nav>
           <button
             type="button"
+            data-location-open
+            aria-haspopup="dialog"
+            aria-controls="location-modal"
+            aria-expanded="false"
             class="mt-3 flex w-full cursor-pointer items-center gap-2 rounded-lg bg-[#fff4ed] px-3 py-2 text-[#f57f17]"
           >
             <img
@@ -118,7 +123,7 @@
               src="/assets/images/header/location-pin.svg"
               alt=""
             />
-            <span class="text-[15px]">انتخاب آدرس</span>
+            <span class="text-[15px]" data-location-label>انتخاب آدرس</span>
           </button>
         </div>
 
@@ -131,6 +136,10 @@
 
           <button
             type="button"
+            data-location-open
+            aria-haspopup="dialog"
+            aria-controls="location-modal"
+            aria-expanded="false"
             class="mr-5 flex h-10 shrink-0 cursor-pointer items-center gap-2 rounded-full bg-[#fff4ed] px-3 py-1 text-[#f57f17]"
           >
             <img
@@ -138,16 +147,85 @@
               src="/assets/images/header/location-pin.svg"
               alt=""
             />
-            <span class="text-[15px]">انتخاب آدرس</span>
+            <span class="text-[15px]" data-location-label>انتخاب آدرس</span>
           </button>
         </div>
       </div>
     </header>
     <!--#endregion header-->
+
+    <dialog
+      id="location-modal"
+      class="location-modal font-yekan"
+      aria-labelledby="location-title"
+      aria-describedby="location-description"
+    >
+      <div class="location-modal-header">
+        <div>
+          <h2 id="location-title">انتخاب موقعیت مکانی</h2>
+          <p id="location-description">
+            برای تحویل به‌موقع سفارش، موقعیت را دقیق انتخاب کنید.
+          </p>
+        </div>
+        <button
+          type="button"
+          class="location-close"
+          data-location-close
+          aria-label="بستن پنجره انتخاب آدرس"
+          autofocus
+        >
+          <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <path d="m6 6 12 12M6 18 18 6" />
+          </svg>
+        </button>
+      </div>
+
+      <div class="location-map-wrap">
+        <div
+          id="location-map"
+          class="location-map"
+          role="region"
+          aria-label="نقشه انتخاب آدرس؛ نقشه را بکشید یا از کلیدهای جهت‌دار استفاده کنید"
+        ></div>
+
+        <div class="location-search">
+          <div class="location-search-field">
+            <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <circle cx="10.5" cy="10.5" r="6.5" />
+              <path d="m16 16 4.5 4.5" />
+            </svg>
+            <input
+              id="location-search"
+              type="search"
+              placeholder="جستجوی استان و شهر ..."
+              aria-label="جستجوی استان و شهر"
+              aria-controls="location-search-results"
+              autocomplete="off"
+            />
+          </div>
+          <div id="location-search-results" class="location-search-results" hidden></div>
+        </div>
+
+        <div class="location-map-marker" aria-hidden="true">
+          <span>موقعیت تحویل سفارش</span>
+          <svg viewBox="0 0 32 40" fill="none">
+            <path d="M16 38S3 25 3 15a13 13 0 0 1 26 0c0 10-13 23-13 23Z" fill="#1976d2" stroke="white" stroke-width="2" />
+            <circle cx="16" cy="15" r="4.5" fill="white" />
+          </svg>
+        </div>
+        <p id="location-map-status" class="location-map-status" role="status" hidden></p>
+      </div>
+
+      <div class="location-modal-footer">
+        <button type="button" class="location-confirm" data-location-confirm>
+          ثبت موقعیت مکانی
+        </button>
+      </div>
+    </dialog>
+
     <!--#region Banner-slider-->
     <section
       id="hero-slider-root"
-      class="hidden lg:block"
       aria-label="بنرهای تبلیغاتی"
     >
       <div class="swiper hero-swiper" dir="rtl">
@@ -175,7 +253,7 @@
     <section aria-label="خدمات دیجی‌کالا">
       <div class="site-container">
         <div
-          class="mx-auto flex w-[80%] max-w-360 items-start justify-start gap-3 overflow-x-auto px-4 py-6 lg:justify-between lg:gap-0 lg:px-6"
+          class="services-strip mx-auto flex w-full max-w-360 items-start justify-start gap-3 overflow-x-auto px-4 py-6 lg:w-[80%] lg:justify-between lg:gap-0 lg:px-6"
         >
           <a
             href="#"
@@ -330,33 +408,65 @@
             >
           </a>
 
-          <a
-            href="#"
-            class="flex w-[110px] min-w-[110px] shrink-0 flex-col items-center gap"
+          <button
+            id="services-more"
+            type="button"
+            aria-haspopup="dialog"
+            aria-controls="services-modal"
+            aria-expanded="false"
+            class="flex w-[110px] min-w-[110px] shrink-0 cursor-pointer flex-col items-center gap"
           >
-            <div
+            <span
               class="flex h-[52px] w-[52px] items-center justify-center overflow-hidden rounded-full bg-[#f0f0f1]"
             >
               <img
                 src="/assets/images/story/story-10.svg"
-                alt="بیشتر"
+                alt=""
                 class="h-6 w-6 object-cover"
               />
-            </div>
+            </span>
             <span
               class="whitespace-nowrap text-center text-[14px] leading-5 text-[#3f4064]"
               >بیشتر</span
             >
-          </a>
+          </button>
         </div>
       </div>
     </section>
     <!--#endregion service-->
 
+    <dialog
+      id="services-modal"
+      class="services-modal"
+      aria-labelledby="services-modal-title"
+    >
+      <div class="services-modal-header">
+        <h2 id="services-modal-title">خدمات دیجی‌کالا</h2>
+        <button
+          type="button"
+          class="services-modal-close"
+          aria-label="بستن پنجره خدمات دیجی‌کالا"
+          autofocus
+        >
+          <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <path d="m6 6 12 12M6 18 18 6" />
+          </svg>
+        </button>
+      </div>
+
+      <div class="services-modal-content">
+        <nav id="services-shortcuts" class="services-shortcuts" aria-label="خدمات منتخب"></nav>
+        <section aria-labelledby="services-group-title">
+          <h3 id="services-group-title">سرویس‌های گروه دیجی‌کالا</h3>
+          <div id="services-group" class="services-group"></div>
+        </section>
+      </div>
+    </dialog>
+
     <!--#region Amazing-->
 
     <section
-      class="site-container px-4 pb-6 lg:px-6"
+      class="amazing-red site-container px-4 pb-6 lg:px-6"
       aria-labelledby="amazing-title"
     >
       <div
@@ -364,37 +474,37 @@
         dir="rtl"
       >
         <aside
-          class="flex h-full w-35 shrink-0 flex-col items-center justify-center gap-3 text-white sm:w-40 lg:w-45"
+          class="flex h-full w-28 shrink-0 flex-col items-center justify-center gap-3 text-white sm:w-40 lg:w-45"
         >
           <img
-            src="/assets/images/amazing/smileShapedPercent.svg"
+            src="/assets/images/amazing-red/smileShapedPercent.svg"
             alt=""
             class="h-12 w-14 object-contain"
           />
 
           <h2 id="amazing-title" class="flex items-center justify-center">
             <img
-              src="/assets/images/amazing/amazingLogo.svg"
+              src="/assets/images/amazing-red/amazingLogo.svg"
               alt="شگفت‌انگیز"
-              class="h-auto w-32 object-contain lg:w-35"
+              class="h-auto w-25 object-contain sm:w-32 lg:w-35"
             />
           </h2>
 
           <div class="flex items-center gap-1 text-sm font-yekan" dir="ltr">
             <span
-              id="amazing-hours"
+              data-amazing-hours
               class="flex h-7 min-w-7 items-center justify-center rounded-md bg-white px-1 text-[#3f4064]"
               >23</span
             >
             <span aria-hidden="true">:</span>
             <span
-              id="amazing-minutes"
+              data-amazing-minutes
               class="flex h-7 min-w-7 items-center justify-center rounded-md bg-white px-1 text-[#3f4064]"
               >59</span
             >
             <span aria-hidden="true">:</span>
             <span
-              id="amazing-seconds"
+              data-amazing-seconds
               class="flex h-7 min-w-7 items-center justify-center rounded-md bg-white px-1 text-[#3f4064]"
               >59</span
             >
@@ -442,27 +552,180 @@
     <!--#endregion Amazing-->
 
     <!--#region ads-->
-    <div class="ads-container mx-auto w-326">
+    <div class="ads-container mx-auto w-[calc(100%_-_32px)] max-w-326 lg:w-[calc(100%_-_48px)]">
       <div
         id="ads-first-row"
-        class="ads flex gap-1 justify-center mx-auto w-full h-59 mb-5"
-      >
-        <!-- <img class="rounded-2xl" src="/assets/images/ads/image-1.gif" alt="" />
-      <img class="rounded-2xl" src="/assets/images/ads/image-2.jpg" alt="" />
-      <img class="rounded-2xl" src="/assets/images/ads/image-3.jpg" alt="" />
-      <img class="rounded-2xl" src="/assets/images/ads/image-4.jpg" alt="" /> -->
-      </div>
+        class="ads mx-auto mb-3 grid w-full grid-cols-2 gap-3 sm:mb-5 md:grid-cols-4 lg:gap-1"
+      ></div>
       <div
         id="ads-second-row"
-        class="ads flex gap-1 justify-center mx-auto w-full h-59"
-      >
-        <!-- <img class="rounded-2xl" src="/assets/images/ads/image-5.jpg" alt="" />
-      <img class="rounded-2xl" src="/assets/images/ads/image-6.gif" alt="" />
-      <img class="rounded-2xl" src="/assets/images/ads/image-7.jpg" alt="" />
-      <img class="rounded-2xl" src="/assets/images/ads/image-8.jpg" alt="" /> -->
-      </div>
+        class="ads mx-auto grid w-full grid-cols-2 gap-3 md:grid-cols-4 lg:gap-1"
+      ></div>
     </div>
     <!--#endregion ads-->
+
+    <!--#region Amazing Green-->
+    <section
+      class="amazing-green site-container px-4 py-6 lg:px-6"
+      aria-labelledby="amazing-green-title"
+    >
+      <div
+        class="mx-auto flex h-71.5 w-full max-w-326 box-border overflow-hidden rounded-2xl bg-[#72BA2D] py-5 lg:h-78.5"
+        dir="rtl"
+      >
+        <aside
+          class="flex h-full w-28 shrink-0 flex-col items-center justify-center gap-3 text-white sm:w-40 lg:w-45"
+        >
+          <img
+            src="/assets/images/amazing-red/smileShapedPercent.svg"
+            alt=""
+            class="h-12 w-14 object-contain"
+          />
+
+          <h2
+            id="amazing-green-title"
+            class="flex items-center justify-center"
+          >
+            <img
+              src="/assets/images/amazing-red/amazingLogo.svg"
+              alt="شگفت‌انگیز"
+              class="h-auto w-25 object-contain sm:w-32 lg:w-35"
+            />
+          </h2>
+
+          <div class="flex items-center gap-1 text-sm font-yekan" dir="ltr">
+            <span
+              data-amazing-hours
+              class="flex h-7 min-w-7 items-center justify-center rounded-md bg-white px-1 text-[#3f4064]"
+              >23</span
+            >
+            <span aria-hidden="true">:</span>
+            <span
+              data-amazing-minutes
+              class="flex h-7 min-w-7 items-center justify-center rounded-md bg-white px-1 text-[#3f4064]"
+              >59</span
+            >
+            <span aria-hidden="true">:</span>
+            <span
+              data-amazing-seconds
+              class="flex h-7 min-w-7 items-center justify-center rounded-md bg-white px-1 text-[#3f4064]"
+              >59</span
+            >
+          </div>
+
+          <a
+            href="#"
+            class="rounded-lg bg-white px-3 py-2 text-[16px] font-yekan text-[#3f4064]"
+          >
+            مشاهده همه ←
+          </a>
+        </aside>
+
+        <div
+          class="swiper amazing-swiper relative h-full min-w-0 flex-1 overflow-hidden"
+          dir="rtl"
+        >
+          <div class="swiper-wrapper h-full"></div>
+
+          <button
+            type="button"
+            class="amazing-swiper-prev absolute top-1/2 right-3 z-20 flex h-10 w-10 -translate-y-1/2 cursor-pointer items-center justify-center rounded-full border border-[#e0e0e2] bg-white text-xl text-[#3f4064] shadow-sm transition-opacity [&.swiper-button-disabled]:invisible [&.swiper-button-disabled]:opacity-0"
+            aria-label="محصولات قبلی"
+          >
+            <span
+              class="block leading-none [direction:ltr] [unicode-bidi:isolate]"
+              aria-hidden="true"
+              >❯</span
+            >
+          </button>
+
+          <button
+            type="button"
+            class="amazing-swiper-next absolute top-1/2 left-3 z-20 flex h-10 w-10 -translate-y-1/2 cursor-pointer items-center justify-center rounded-full border border-[#e0e0e2] bg-white text-xl text-[#3f4064] shadow-sm transition-opacity [&.swiper-button-disabled]:invisible [&.swiper-button-disabled]:opacity-0"
+            aria-label="محصولات بعدی"
+          >
+            <span
+              class="block leading-none [direction:ltr] [unicode-bidi:isolate]"
+              aria-hidden="true"
+              >❮</span
+            >
+          </button>
+        </div>
+      </div>
+    </section>
+    <!--#endregion Amazing Green-->
+
+    <!--#region Product Categories-->
+    <section
+      class="site-container px-4 py-8 lg:px-6 lg:py-10"
+      aria-labelledby="product-groups-title"
+    >
+      <div class="mx-auto w-full max-w-326">
+        <h2
+          id="product-groups-title"
+          class="mb-4 text-right text-[22px] font-yekan text-[#0c0c0c] lg:mb-6 lg:text-[26px]"
+        >
+          دسته‌بندی‌ها
+        </h2>
+
+        <!-- End padding reduces each distributed gap by 6px: (columns - 1) * 6px. -->
+        <div
+          id="product-groups"
+          class="grid grid-cols-[repeat(3,minmax(0,100px))] justify-between gap-y-2 pe-[12px] sm:grid-cols-[repeat(4,minmax(0,100px))] sm:pe-[18px] md:grid-cols-[repeat(6,minmax(0,100px))] md:pe-[30px] lg:grid-cols-[repeat(9,minmax(0,100px))] lg:pe-[48px]"
+          dir="rtl"
+        ></div>
+      </div>
+    </section>
+    <!--#endregion Product Categories-->
+
+    <!--#region Wide Banners-->
+    <section
+      class="site-container px-4 pb-6 lg:px-6"
+      aria-label="بنرهای تبلیغاتی محصولات بهداشتی"
+    >
+      <div
+        id="wide-banners"
+        class="mx-auto grid w-full max-w-326 grid-cols-1 gap-4 sm:grid-cols-2"
+        dir="rtl"
+      ></div>
+    </section>
+    <!--#endregion Wide Banners-->
+
+    <!--#region Your Taste-->
+    <section
+      class="site-container px-4 pb-6 lg:px-6"
+      aria-labelledby="your-taste-title"
+    >
+      <div
+        id="your-taste"
+        class="mx-auto w-full max-w-326 overflow-hidden rounded-2xl border border-[#e0e0e2] bg-white"
+        dir="rtl"
+      ></div>
+    </section>
+    <!--#endregion Your Taste-->
+
+    <!--#region Best Sellers-->
+    <section
+      class="site-container px-4 pb-6 lg:px-6"
+      aria-labelledby="best-sellers-title"
+    >
+      <div
+        id="best-sellers"
+        class="mx-auto w-full max-w-326 overflow-hidden rounded-2xl border border-[#e0e0e2] bg-white"
+        dir="rtl"
+      ></div>
+    </section>
+    <!--#endregion Best Sellers-->
+
+    <!--#region Footer-->
+    <footer
+      id="site-footer"
+      class="mt-8 border-t border-[#e0e0e2] bg-white"
+      aria-label="پاورقی دیجی‌کالا"
+      dir="rtl"
+    ></footer>
+    <!--#endregion Footer-->
+
     <script type="module" src="/src/ts/main.ts"></script>
     <!--#endregion wrapper-->
   </body>

@@ -1,0 +1,130 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "priority": 1,
+      "title": "موبایل",
+      "url": "#",
+      "src": "/assets/images/productsGroup/group-1.webp"
+    },
+    {
+      "id": 1777,
+      "priority": 2,
+      "title": "لپ تاپ",
+      "url": "#",
+      "src": "/assets/images/productsGroup/group-2.webp"
+    },
+    {
+      "id": 2,
+      "priority": 3,
+      "title": "کالای دیجیتال",
+      "url": "#",
+      "src": "/assets/images/productsGroup/group-3.webp"
+    },
+    {
+      "id": 3,
+      "priority": 4,
+      "title": "خانه و آشپزخانه",
+      "url": "#",
+      "src": "/assets/images/productsGroup/group-4.webp"
+    },
+    {
+      "id": 835,
+      "priority": 5,
+      "title": "لوازم خانگی برقی",
+      "url": "#",
+      "src": "/assets/images/productsGroup/group-5.webp"
+    },
+    {
+      "id": 8,
+      "priority": 6,
+      "title": "آرایشی بهداشتی",
+      "url": "#",
+      "src": "/assets/images/productsGroup/group-6.webp"
+    },
+    {
+      "id": 4,
+      "priority": 7,
+      "title": "مد و پوشاک",
+      "url": "#",
+      "src": "/assets/images/productsGroup/group-7.webp"
+    },
+    {
+      "id": 1307,
+      "priority": 8,
+      "title": "طلا و نقره",
+      "url": "#",
+      "src": "/assets/images/productsGroup/group-8.webp"
+    },
+    {
+      "id": 11,
+      "priority": 9,
+      "title": "خودرو و موتورسیکلت",
+      "url": "#",
+      "src": "/assets/images/productsGroup/group-9.webp"
+    },
+    {
+      "id": 1414,
+      "priority": 11,
+      "title": "تجهیزات پزشکی و سلامت",
+      "url": "#",
+      "src": "/assets/images/productsGroup/group-11.webp"
+    },
+    {
+      "id": 10,
+      "priority": 10,
+      "title": "ابزارآلات و تجهیزات",
+      "url": "#",
+      "src": "/assets/images/productsGroup/group-10.webp"
+    },
+    {
+      "id": 6,
+      "priority": 12,
+      "title": "کتاب، لوازم تحریر و هنر",
+      "url": "#",
+      "src": "/assets/images/productsGroup/group-12.webp"
+    },
+    {
+      "id": 9,
+      "priority": 13,
+      "title": "ورزش و سفر",
+      "url": "#",
+      "src": "/assets/images/productsGroup/group-13.webp"
+    },
+    {
+      "id": 13,
+      "priority": 14,
+      "title": "کارت هدیه و گیفت کارت",
+      "url": "#",
+      "src": "/assets/images/productsGroup/group-14.webp"
+    },
+    {
+      "id": 5,
+      "priority": 15,
+      "title": "کالای خوراکی و اساسی",
+      "url": "#",
+      "src": "/assets/images/productsGroup/group-15.webp"
+    },
+    {
+      "id": 7,
+      "priority": 16,
+      "title": "اسباب بازی، کودک و نوزاد",
+      "url": "#",
+      "src": "/assets/images/productsGroup/group-16.webp"
+    },
+    {
+      "id": 12,
+      "priority": 17,
+      "title": "محصولات بومی و محلی",
+      "url": "#",
+      "src": "/assets/images/productsGroup/group-17.webp"
+    },
+    {
+      "id": 1974,
+      "priority": 18,
+      "title": "پت شاپ",
+      "url": "#",
+      "src": "/assets/images/productsGroup/group-18.webp"
+    }
+  ]
+}

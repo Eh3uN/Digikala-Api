@@ -1,0 +1,82 @@
+[
+  {
+    "file": "./src/assets/brands/digistyle.svg",
+    "url": "https://www.digikala.com/statics/img/svg/footer/digistyle.svg"
+  },
+  {
+    "file": "./src/assets/brands/digiplus.svg",
+    "url": "https://www.digikala.com/statics/img/svg/footer/digiplus.svg"
+  },
+  {
+    "file": "./src/assets/brands/diginext.svg",
+    "url": "https://www.digikala.com/statics/img/svg/footer/diginext.svg"
+  },
+  {
+    "file": "./src/assets/brands/digiexpress.svg",
+    "url": "https://www.digikala.com/statics/img/svg/footer/digiexpress.svg"
+  },
+  {
+    "file": "./src/assets/brands/digify.svg",
+    "url": "https://www.digikala.com/statics/img/svg/footer/digify.svg"
+  },
+  {
+    "file": "./src/assets/brands/digikala-business.svg",
+    "url": "https://www.digikala.com/statics/img/svg/footer/digikala-business.svg"
+  },
+  {
+    "file": "./src/assets/application/coffe-bazzar.svg",
+    "url": "https://www.digikala.com/statics/img/svg/appStores/coffe-bazzar.svg"
+  },
+  {
+    "file": "./src/assets/application/sib-app.svg",
+    "url": "https://www.digikala.com/statics/img/svg/appStores/sib-app.svg"
+  },
+  {
+    "file": "./src/assets/application/myket-dark.svg",
+    "url": "https://www.digikala.com/statics/img/svg/appStores/myket-dark.svg"
+  },
+  {
+    "file": "src/assets/application/coffe-bazzar-dark-.svg",
+    "url": "https://www.digikala.com/statics/img/svg/appStores/mobile-coffe-bazzar.svg"
+  },
+  {
+    "file": "src/assets/namad/enamad.png",
+    "url": "https://www.digikala.com/statics/img/png/enamad.png"
+  },
+  {
+    "file": "src/assets/application/apk-badge-dark.svg",
+    "url": "https://www.digikala.com/statics/img/svg/appStores/download-apk-badge-dark.svg"
+  },
+  {
+    "file": "src/assets/namad/kasbokar.png",
+    "url": "https://www.digikala.com/statics/img/png/kasbokar.png"
+  },
+  {
+    "file": "src/assets/namad/rezi.png",
+    "url": "https://www.digikala.com/statics/img/png/rezi.png"
+  },
+  {
+    "file": "src/assets/namad/sapra.png",
+    "url": "https://www.digikala.com/statics/img/png/sapra.png"
+  },
+  {
+    "file": "src/assets/brands/digikala-ads.svg",
+    "url": "https://dkstatics-public.digikala.com/digikala-static/6d8b4e67f90b80c581949f1e680aeaa60fa49d0e_1770621595.svg"
+  },
+  {
+    "file": "src/assets/brands/magsvg.svg",
+    "url": "https://dkstatics-public.digikala.com/digikala-static/4801e91f7b612493262538e3fad2d1d268f7e9f0_1758969413.svg"
+  },
+  {
+    "file": "src/assets/brands/digimag.svg",
+    "url": "https://dkstatics-public.digikala.com/digikala-static/4801e91f7b612493262538e3fad2d1d268f7e9f0_1758969413.svg"
+  },
+  {
+    "file": "src/assets/brands/digiservice.svg",
+    "url": "https://dkstatics-public.digikala.com/digikala-static/d71fbbf34e40eca5197d564c70539434cc21a37c_1758969423.svg"
+  },
+  {
+    "file": "src/assets/brands/digikala-service.svg",
+    "url": "https://dkstatics-public.digikala.com/digikala-static/d71fbbf34e40eca5197d564c70539434cc21a37c_1758969423.svg"
+  }
+]

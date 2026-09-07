@@ -1,0 +1,22 @@
+{
+  "shortcuts": [
+    { "title": "سوپرمارکت", "image": "story-1.webp", "url": "https://www.digikalajet.com/" },
+    { "title": "همه چیز\nبرای\nمدرسه", "icon": "school", "color": "#294fa8", "url": "https://www.digikala.com/landing/btsschool/" },
+    { "title": "سرویس\nادواری\nخودرو", "icon": "car", "color": "#194f5c", "url": "https://www.digikala.com/landing/car-service405/" },
+    { "title": "پرفروش‌های\nتابستون", "icon": "summer", "color": "#f28b38", "url": "https://www.digikala.com/best-selling/" },
+    { "title": "حراج\nلپ‌تاپ\nتبلت", "image": "story-8.webp", "url": "https://www.digikala.com/search/category-notebook-netbook-ultrabook/" },
+    { "title": "دیجی‌کارت", "icon": "digicard", "color": "#000000", "url": "https://www.digikala.com/digicard/" },
+    { "title": "دیجی‌کالا\nسرویس", "icon": "smile", "color": "#286c69", "url": "https://www.digikala-service.com/" },
+    { "title": "فروشگاه\nحضوری", "icon": "store", "color": "#ef174c", "url": "https://www.digikala.com/landings/physical-stores/" }
+  ],
+  "group": [
+    { "title": "طلا و نقره دیجیتال", "image": "story-2.webp", "url": "https://www.digikala.com/wealth/landing/digital-gold/" },
+    { "title": "دیجی‌استایل", "icon": "digistyle", "color": "#000000", "url": "https://digistyle.com/" },
+    { "title": "اشتراک پلاس", "image": "story-9.webp", "url": "https://www.digikala.com/plus/landing/" },
+    { "title": "وام بانکی، اعتبار خرید", "icon": "digipay", "color": "#2100ff", "url": "https://www.mydigipay.com/" },
+    { "title": "دیجی‌کالا سرویس", "icon": "smile", "color": "#286c69", "url": "https://www.digikala-service.com/" },
+    { "title": "دیجی‌کالا مهر", "icon": "smile", "color": "#00a884", "url": "https://www.digikala.com/mehr/" },
+    { "title": "سوپرمارکت دیجی‌کالا", "image": "story-1.webp", "url": "https://www.digikalajet.com/" },
+    { "title": "فروش در دیجی‌کالا", "icon": "store", "color": "#ef174c", "url": "https://www.digikala.com/landings/seller-introduction/" }
+  ]
+}

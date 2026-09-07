@@ -1,0 +1,294 @@
+{
+  "brands": [
+    {
+      "id": 1,
+      "title": "magsvg",
+      "alt": "magsvg",
+      "priority": 1,
+      "url": "#",
+      "src": "./src/assets/brands/magsvg.svg"
+    },
+    {
+      "id": 2,
+      "title": "digipay",
+      "alt": "digipay",
+      "priority": 2,
+      "url": "#",
+      "src": "/assets/images/footer/بهترین راهکارهای پرداخت آنلاین.svg"
+    },
+    {
+      "id": 3,
+      "title": "digistyle",
+      "alt": "digistyle",
+      "priority": 3,
+      "url": "#",
+      "src": "./src/assets/brands/digistyle.svg"
+    },
+    {
+      "id": 4,
+      "title": "digiplus",
+      "alt": "digiplus",
+      "priority": 4,
+      "url": "#",
+      "src": "./src/assets/brands/digiplus.svg"
+    },
+    {
+      "id": 5,
+      "title": "digiclub",
+      "alt": "digiclub",
+      "priority": 5,
+      "url": "#",
+      "src": "/assets/images/footer/دیجی کلاب باشگاه مشتریان دیجیکالا.svg"
+    },
+    {
+      "id": 6,
+      "title": "jet",
+      "alt": "jet",
+      "priority": 6,
+      "url": "#",
+      "src": "/assets/images/footer/خرید آنی سوپرمارکتی از فروشگاه های نزدیک.svg"
+    },
+    {
+      "id": 17,
+      "title": "دیجی‌کالا ادز",
+      "alt": "digikala ads",
+      "priority": 7,
+      "url": "#",
+      "src": "./src/assets/brands/digikala-ads.svg"
+    },
+    {
+      "id": 7,
+      "title": "digiMehr",
+      "alt": "digiMehr",
+      "priority": 8,
+      "url": "#",
+      "src": "/assets/images/footer/دیجیکالا مهر - زنجیره مهربانی و لبخند.svg"
+    },
+    {
+      "id": 8,
+      "title": "diginext",
+      "alt": "diginext",
+      "priority": 9,
+      "url": "#",
+      "src": "./src/assets/brands/diginext.svg"
+    },
+    {
+      "id": 9,
+      "title": "digiexpress",
+      "alt": "digiexpress",
+      "priority": 10,
+      "url": "#",
+      "src": "./src/assets/brands/digiexpress.svg"
+    },
+    {
+      "id": 10,
+      "title": "ganjeh",
+      "alt": "ganjeh",
+      "priority": 11,
+      "url": "#",
+      "src": "/assets/images/footer/گنجه.svg"
+    },
+    {
+      "id": 11,
+      "title": "digify",
+      "alt": "digify",
+      "priority": 12,
+      "url": "#",
+      "src": "./src/assets/brands/digify.svg"
+    },
+    {
+      "id": 12,
+      "title": "smartech",
+      "alt": "smartech",
+      "priority": 13,
+      "url": "#",
+      "src": "/assets/images/footer/اسمارتک.svg"
+    },
+    {
+      "id": 13,
+      "title": "digikala-business",
+      "alt": "digikala-business",
+      "priority": 14,
+      "url": "#",
+      "src": "./src/assets/brands/digikala-business.svg"
+    },
+    {
+      "id": 14,
+      "title": "digiservice",
+      "alt": "digiservice",
+      "priority": 15,
+      "url": "#",
+      "src": "./src/assets/brands/digiservice.svg"
+    },
+    {
+      "id": 15,
+      "title": "miare",
+      "alt": "miare",
+      "priority": 16,
+      "url": "#",
+      "src": "/assets/images/footer/میاره.svg"
+    },
+    {
+      "id": 16,
+      "title": "digividomart",
+      "alt": "digividomart",
+      "priority": 17,
+      "url": "#",
+      "src": "/assets/images/footer/ویدومارت.svg"
+    },
+    {
+      "id": 18,
+      "title": "طلای دیجیتال",
+      "alt": "طلای دیجیتال",
+      "priority": 18,
+      "url": "#",
+      "src": "/assets/images/footer/طلای دیجیتال-1.svg"
+    }
+  ],
+  "mobileBrands": [
+    {
+      "id": 1,
+      "title": "magsvg",
+      "alt": "magsvg",
+      "priority": 1,
+      "url": "#",
+      "src": "./src/assets/brands/magsvg.svg"
+    },
+    {
+      "id": 2,
+      "title": "digipay",
+      "alt": "digipay",
+      "priority": 2,
+      "url": "#",
+      "src": "/assets/images/footer/بهترین راهکارهای پرداخت آنلاین.svg"
+    },
+    {
+      "id": 3,
+      "title": "digistyle",
+      "alt": "digistyle",
+      "priority": 3,
+      "url": "#",
+      "src": "./src/assets/brands/digistyle.svg"
+    },
+    {
+      "id": 4,
+      "title": "digiplus",
+      "alt": "digiplus",
+      "priority": 4,
+      "url": "#",
+      "src": "./src/assets/brands/digiplus.svg"
+    },
+    {
+      "id": 5,
+      "title": "digiclub",
+      "alt": "digiclub",
+      "priority": 5,
+      "url": "#",
+      "src": "/assets/images/footer/دیجی کلاب باشگاه مشتریان دیجیکالا.svg"
+    },
+    {
+      "id": 6,
+      "title": "jet",
+      "alt": "jet",
+      "priority": 6,
+      "url": "#",
+      "src": "/assets/images/footer/خرید آنی سوپرمارکتی از فروشگاه های نزدیک.svg"
+    },
+    {
+      "id": 17,
+      "title": "دیجی‌کالا ادز",
+      "alt": "digikala ads",
+      "priority": 7,
+      "url": "#",
+      "src": "./src/assets/brands/digikala-ads.svg"
+    },
+    {
+      "id": 7,
+      "title": "digiMehr",
+      "alt": "digiMehr",
+      "priority": 8,
+      "url": "#",
+      "src": "/assets/images/footer/دیجیکالا مهر - زنجیره مهربانی و لبخند.svg"
+    },
+    {
+      "id": 8,
+      "title": "diginext",
+      "alt": "diginext",
+      "priority": 9,
+      "url": "#",
+      "src": "./src/assets/brands/diginext.svg"
+    },
+    {
+      "id": 9,
+      "title": "digiexpress",
+      "alt": "digiexpress",
+      "priority": 10,
+      "url": "#",
+      "src": "./src/assets/brands/digiexpress.svg"
+    },
+    {
+      "id": 10,
+      "title": "ganjeh",
+      "alt": "ganjeh",
+      "priority": 11,
+      "url": "#",
+      "src": "/assets/images/footer/گنجه.svg"
+    },
+    {
+      "id": 11,
+      "title": "digify",
+      "alt": "digify",
+      "priority": 12,
+      "url": "#",
+      "src": "./src/assets/brands/digify.svg"
+    },
+    {
+      "id": 12,
+      "title": "smartech",
+      "alt": "smartech",
+      "priority": 13,
+      "url": "#",
+      "src": "/assets/images/footer/اسمارتک.svg"
+    },
+    {
+      "id": 13,
+      "title": "digikala-business",
+      "alt": "digikala-business",
+      "priority": 14,
+      "url": "#",
+      "src": "./src/assets/brands/digikala-business.svg"
+    },
+    {
+      "id": 14,
+      "title": "digiservice",
+      "alt": "digiservice",
+      "priority": 15,
+      "url": "#",
+      "src": "./src/assets/brands/digiservice.svg"
+    },
+    {
+      "id": 15,
+      "title": "miare",
+      "alt": "miare",
+      "priority": 16,
+      "url": "#",
+      "src": "/assets/images/footer/میاره.svg"
+    },
+    {
+      "id": 16,
+      "title": "digividomart",
+      "alt": "digividomart",
+      "priority": 17,
+      "url": "#",
+      "src": "/assets/images/footer/ویدومارت.svg"
+    },
+    {
+      "id": 18,
+      "title": "طلای دیجیتال",
+      "alt": "طلای دیجیتال",
+      "priority": 18,
+      "url": "#",
+      "src": "/assets/images/footer/طلای دیجیتال-1.svg"
+    }
+  ]
+}

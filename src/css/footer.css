@@ -1,0 +1,48 @@
+#site-footer :is(a, button, input, summary):focus-visible {
+  outline: 2px solid #19bfd3;
+  outline-offset: 4px;
+}
+
+.footer-about-preview {
+  max-height: 84px;
+  overflow: hidden;
+  mask-image: linear-gradient(to bottom, #000 25%, transparent 100%);
+}
+
+.footer-rich-text {
+  color: #81858b;
+  font-size: 17px;
+  line-height: 2;
+  overflow-wrap: anywhere;
+}
+
+.footer-rich-text p + p {
+  margin-top: 12px;
+}
+
+.footer-rich-text :is(h2, h3, h4) {
+  margin: 20px 0 8px;
+  color: #62666d;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.footer-rich-text a {
+  color: #19bfd3;
+}
+
+.footer-rich-text a:hover {
+  text-decoration: underline;
+}
+
+.footer-rich-text :is(ul, ol) {
+  padding-inline-start: 24px;
+}
+
+.footer-rich-text ul {
+  list-style: disc;
+}
+
+.footer-rich-text ol {
+  list-style: decimal;
+}

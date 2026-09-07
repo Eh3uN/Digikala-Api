@@ -31,12 +31,15 @@ const Ads = async () => {
       return `
         <a
           href="${item.url}"
-          class="block h-full flex-1 overflow-hidden rounded-2xl mx-auto"
+          class="block min-w-0 overflow-hidden rounded-xl lg:rounded-2xl"
         >
           <img
             src="${imagePath}"
             alt="${item.alt}"
-            class="h-full w-78.5 object-cover rounded-2xl"
+            width="400"
+            height="300"
+            loading="lazy"
+            class="block aspect-[4/3] h-auto w-full object-cover"
           />
         </a>
       `;
@@ -48,12 +51,15 @@ const Ads = async () => {
       return `
         <a
           href="${item.url}"
-          class="block h-full flex-1 overflow-hidden rounded-2xl"
+          class="block min-w-0 overflow-hidden rounded-xl lg:rounded-2xl"
         >
           <img
             src="${imagePath}"
             alt="${item.alt}"
-            class="h-full w-78.5 rounded-2xl object-cover"
+            width="400"
+            height="300"
+            loading="lazy"
+            class="block aspect-[4/3] h-auto w-full object-cover"
           />
         </a>
       `;
